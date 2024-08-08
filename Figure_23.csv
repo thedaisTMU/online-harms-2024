@@ -1,0 +1,61 @@
+Type,Category,Correct,Share
+Overall,Overall,0-2 right,11.1834152%
+Overall,Overall,3-5 right,35.1627290%
+Overall,Overall,6-8 right,53.6538558%
+Province,BC/YK,0-2 right,11.2992919%
+Province,BC/YK,3-5 right,32.4987560%
+Province,BC/YK,6-8 right,56.2019521%
+Province,AB/NWT,0-2 right,12.9215811%
+Province,AB/NWT,3-5 right,36.0428971%
+Province,AB/NWT,6-8 right,51.0355218%
+Province,MB/SK/NU,0-2 right,11.5799234%
+Province,MB/SK/NU,3-5 right,40.8460270%
+Province,MB/SK/NU,6-8 right,47.5740496%
+Province,ON,0-2 right,12.5033768%
+Province,ON,3-5 right,38.4872976%
+Province,ON,6-8 right,49.0093256%
+Province,QC,0-2 right,8.0185130%
+Province,QC,3-5 right,27.8184452%
+Province,QC,6-8 right,64.1630418%
+Province,Atlantic,0-2 right,10.9123816%
+Province,Atlantic,3-5 right,39.7533708%
+Province,Atlantic,6-8 right,49.3342475%
+Age,16-29,0-2 right,9.9870285%
+Age,16-29,3-5 right,45.2156916%
+Age,16-29,6-8 right,44.7972799%
+Age,30-44,0-2 right,16.5566803%
+Age,30-44,3-5 right,35.2078368%
+Age,30-44,6-8 right,48.2354829%
+Age,45-59,0-2 right,10.7606577%
+Age,45-59,3-5 right,33.4441369%
+Age,45-59,6-8 right,55.7952054%
+Age,60+,0-2 right,8.1269407%
+Age,60+,3-5 right,29.9200839%
+Age,60+,6-8 right,61.9529753%
+Gender,Woman,0-2 right,9.8418695%
+Gender,Woman,3-5 right,35.5195093%
+Gender,Woman,6-8 right,54.6386211%
+Gender,Man,0-2 right,12.4225129%
+Gender,Man,3-5 right,35.2749246%
+Gender,Man,6-8 right,52.3025625%
+Gender,Other,0-2 right,7.1275849%
+Gender,Other,3-5 right,0.0000000%
+Gender,Other,6-8 right,92.8724151%
+Education,High school or less,0-2 right,12.8649957%
+Education,High school or less,3-5 right,41.9572529%
+Education,High school or less,6-8 right,45.1777514%
+Education,Certificate/ college,0-2 right,10.8101609%
+Education,Certificate/ college,3-5 right,36.5719813%
+Education,Certificate/ college,6-8 right,52.6178578%
+Education,University,0-2 right,9.6904535%
+Education,University,3-5 right,27.3391264%
+Education,University,6-8 right,62.9704201%
+Income,<$50K,0-2 right,14.9452501%
+Income,<$50K,3-5 right,37.4508957%
+Income,<$50K,6-8 right,47.6038542%
+Income,$50K-<$100K,0-2 right,10.1067965%
+Income,$50K-<$100K,3-5 right,37.1988074%
+Income,$50K-<$100K,6-8 right,52.6943960%
+Income,$100K+,0-2 right,8.3108714%
+Income,$100K+,3-5 right,29.3478574%
+Income,$100K+,6-8 right,62.3412712%

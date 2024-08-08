@@ -1,0 +1,62 @@
+Figure_number,Approx_page,Figure_title,X_Axis,Y_Axis,Caption,Legends,X_Axis_Ticks,Y_Axis_Ticks,Other_Annocation,Notes,File_Name
+Figure 1,10,Frequency of Use of Online Platforms in Canada,Platform,Measure,"Question: ""Which of the following best describes how often you typically use the following online platforms""",Frequency,,%,,,
+Figure 2,11,Overall Change in Use of Online Platforms in Canada,Platform,Frequency,Question: “Which of the following best describes how often you typically use the following online platforms: “% who use each platform at least a few times a year”,Year,,%,,,
+Figure 3,12,Daily Platform Use by Age Group,Platform,Share,"Question: ""Which of the following best describes how often you typically use the following online platforms:” - % who use each platform at least a few times a day.",Age,,%,,,
+Figure 4,13,Most Common News Sources in Canada,Platform,Share,"Question: ""Which of the following do you use to stay up to date with the news or current events?”",,,%,,,
+Figure 5,14,Most Common News Sources in Canada Over Time,Platform,Share,"Question: ""Which of the following do you use to stay up to date with the news or current events?”",,,%,,,
+Figure 6,14,Use of News Sources by Age in Canada,Platform,Share,"Question: ""Which of the following do you use to stay up to date with the news or current events?”",,,%,,,
+Figure 7,15,Most and Least Trusted News Sources (Among users of Each Source),Platform,Share,"Question: ""Which of these would you say you trust the [most/least] for staying up to date with the news or current events?”",,,%,,,
+Figure 8,16,Perceived Impact of Meta’s Decision to Block News in Canada,Platform,Trust,"Question: “In response to legislation from the federal government that would require online platforms to compensate news organizations for posting links to news articles, Meta decided to block Canadian news on both Facebook and Instagram. Our survey question asked: To what extent has Meta’s decision to block Canadian news on Facebook and Instagram impacted your ability to stay up to date with the news or current events?”",,,%,,,
+Figure 9,17,Frequency of Digital Civic Participation in Canada,Statement,Share,Question: “Have you ever experienced any of the following?”,,,%,,,
+Figure 10,18,Trust in Organizations to Act in the Best Interest of the Public,Platform,Share,"Question: “On a scale of 1-9, where 1 means you have no trust at all and 9 means you have a high degree of trust, how do you feel about each of the following companies when it comes to trusting them to act in the best interest of the public:”",,,%,,,
+Figure 11,19,Trust in Social Media Platforms in Canada Over Time,,,"Question: ""On a scale of 1-9, where 1 means you have no trust at all and 9 means you have a high degree of trust, how do you feel about each of the following companies when it comes to trusting them to act in the best interest of the public.”",,,%,,,
+Figure 12,20,Trust in Secure and Responsible Digital Services From Each Provider,Platform,Share,"Question: “You are likely interacting with a number of digital services in your daily life. We want you to consider which
+sectors you most trust to offer secure and responsible digital services. This means products and services that are
+modern and reliable, ensure your informed consent, respect your privacy, protect your information from cyber breaches,
+and are aligned with the public interest.
+
+On a scale of 1-9, where 1 means you have no trust at all and 9 means you have a high degree of trust, how do you feel
+about each of the following when it comes to trusting them to offer secure and responsible digital services:”",,,%,,,
+Figure 13,22,Trust in Different Sources For Learning About Digital Literacy and Misinformation,Source,Share,Question: “How much would you trust each of the following sources if you wanted to learn more about misinformation and digital literacy?”,,,%,,,
+Figure 14,23,Frequency of Exposure to Online Harms in Canada,Statement,Share,"Question: “Thinking about your use of online platforms, which best describes how often you see the following, including through posts, links, images, or videos:”",,,%,,,
+Figure 15,24,Frequency of Exposure to Online Harms in Canada Over Time,,,"Question: “Thinking about your use of online platforms, which best describes how often you see the following, including through posts, links, images, or videos:”",,,%,,,
+Figure 16,27,Personal Experience with Online Harms in Canada,Statement,Share,"Question: ""Have you ever experienced any of the following?”",,,%,,,
+Figure 17,,,,,,,,%,,,
+Figure 18,28,Youth Exposure to Online Harms,Statement,Share,Question,,,%,,,
+Figure 19,29,Frequency of Blocking and Reporting Online,Statement,Share,"Question: ""Have you ever experienced any of the following?”",,,%,,,
+Figure 20,30,Perceived Effectiveness of Blocking and Reporting online,Point,Trust,"Question: ""You mentioned that you have reported, blocked, or flagged a person or account online. How would you rate the effectiveness of these actions where 1 is not at all effective and 9 is very effective?”",,,%,,,
+Figure 21,31,Distribution of Eight Correctly Identified Misinformation Statements,Point,Trust,,,,%,,,
+Figure 22,32,Beliefs in Misinformation in Canada,Statement,Share,"Question: ""How much truth do you think there is to each of the following statements?”",,,%,,,
+Figure 23,33,Belief in Misinformation by Demographics,,,Question: “Number of Misinformation Statements Correctly Identified Non-binary respondents not shown due to small sample sizes (n<20).,,,%,,,
+Figure 24,,,,,,,,%,,,
+Figure 25,,Low Trust in Organizations by Beliefs in Misinformation,Platform,Share,"Question: “On a scale of 1-9, where 1 means you have no trust at all and 9 means you have a high degree of trust, how
+do you feel about each of the following companies when it comes to trusting them to act in the best interest of the
+public” - Showing those who gave each platform between a 1 and a 3.",,,%,,,
+Figure 26,37,Attribution of Responsibility for Rise in Harmful Online Content in Canada,Source,Share,"Question: “There are concerns about a rise in harmful content such as hate speech, harassment and false information on
+large online platforms, like YouTube, Facebook or Instagram. Who do you think is most responsible for contributing to a
+rise in harmful online content, whether through action or inaction? And who do you think should be most responsible for
+fixing a rise in harmful online content?”",,,%,,,
+Figure 27,38,Attitudes Towards Online Platform Regulation in Canada,,,"Question: “For each of the following pairs of statements, please indicate which of the following best describes your
+perspective.”",,,%,,,
+Figure 28,39,Support for Specific Requirements for Online Platforms,Statement,Share,"Question: “There have been a number of actions proposed to address harmful content on large online platforms, like
+YouTube, Facebook or Instagram. For each of the following, would you say you strongly support, somewhat support, are
+neutral, somewhat oppose or strongly oppose: Require platforms to…”",,,%,,,
+Figure 29,41,Support for SPecific Requirements for Online Platforms Over Time,,,"Question: “There have been a number of actions proposed to address harmful content on large online platforms, like
+YouTube, Facebook or Instagram. For each of the following, would you say you strongly support, somewhat support, are
+neutral, somewhat oppose or strongly oppose: Require platforms to...”. *Prior to 2019, question text read “Requiring that
+automated content or bot accounts be banned”",,,%,,,
+Figure 30,42,Awareness of Canada’s Proposed Online Harms Act,Statement,Share,"Question: “The Trudeau government has tabled the Online Harms Act to provide recourse to Canadians regarding
+decisions of large online platforms to remove illegal content, such as hate speech or promotion of violence. Before this
+survey, how familiar were you with the Online Harms Act?”",,,%,,,
+Figure 31,42,Support for Canada’s Proposed Online Harms Act,Statement,Share,"Question: “From what you’ve heard, do you support or oppose the Online Harms Act?”",,,%,,,
+Figure 32,43,Support for banning TikTok in Canada,,,"Question: “TikTok was banned on government devices in Canada following concerns about the potential risk of
+surveillance or interference from the Chinese government, given TikTok’s parent company is based in China. Which of
+the following best describes your perspective”",,,%,,,
+,,,,,,,,%,,,
+,,,,,,,,%,,,
+,,,,,,,,%,,,
+,,,,,,,,%,,,
+,,,,,,,,%,,,
+,,,,,,,,%,,,
+,,,,,,,,%,,,
+,,,,,,,,%,,,
