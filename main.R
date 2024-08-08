@@ -3,6 +3,7 @@ library(ggplot2)
 library(stringr)
 library(data.table)
 library(dplyr)
+library(ggrepel)
 
 graph.spreadsheet <- fread("C:/Users/alockhart/Desktop/online-harms-2024-main/Graph_spreadsheet.csv")
 
@@ -40,7 +41,7 @@ figure.1 <- plot.column.dais(figure.1.data,
                              "Unsure"="grey"))+
   coord_flip() + 
   ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
-  geom_text(aes(label = paste0(round(Measure, 0), "%")), 
+  geom_text_repel(aes(label = paste0(round(Measure, 0), "%")), 
             position = position_stack(vjust = 0.5)) +
   guides(fill=guide_legend(reverse=TRUE)) + 
   theme(axis.title.y = element_blank())
@@ -197,12 +198,38 @@ figure.6 <- ggplot(figure.6.data,aes(Platform,Share,colour=Age)) + dais.base.the
   scale_color_manual(values = c(set.colours(4))) + coord_flip() + #Change colours here
   theme(panel.grid.major.y = element_line(colour=set.colours(1,categorical.choice="grey"),linewidth=0.4),
         panel.grid.minor.y = element_line(colour=set.colours(1,categorical.choice="grey"),linewidth=0.4)) + 
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
   theme(axis.title.y = element_blank(),
         axis.title.x = element_blank())
 
 figure.7.data <-fread("C:/Users/alockhart/Desktop/online-harms-2024-main/Figure_7.csv")
 figure.7.data[,Share:=str_remove(Share,"%")][,Share:=as.numeric(Share)]
-figure.7 <- plot.pyramid.dais(figure.7.data,Share,Answer,Platform)
+figure.7.data[,Platform:=as.factor(Platform)][,Platform:=reorder(Platform,c(rep(1,15),rep(2,15)))]
+figure.7.data$Answer <- factor(figure.7.data$Answer, levels=c("Trust", "Distrust"))
+figure.7.data$Platform <- factor(figure.7.data$Platform, levels=c("News on TV",
+                                                                   "News websites",
+                                                                   "News on the radio",
+                                                                   "Search engines",
+                                                                   "YouTube",
+                                                                   "Print newspapers",
+                                                                   "Messages from friends, etc",
+                                                                   "Twitter / X",
+                                                                   "Facebook",
+                                                                   "Instagram",
+                                                                   "News alerts on your phone",
+                                                                   "TikTok",
+                                                                   "Other",
+                                                                   "None of the above",
+                                                                   "Don't know"
+
+                                                                       
+))
+figure.7 <- plot.column.dais(figure.7.data,Share,Platform,group.by=Answer,stacked=FALSE) +  
+  ylab(NULL) + scale_y_continuous(breaks = NULL, limits=c(0,40), expand=c(0,0))+
+  geom_text(aes(label = paste0(round(Share, 0), "%")), 
+            position = position_dodge(width = 0.6),
+            vjust = -0.5) +
+  theme(legend.direction = "vertical")
 
 figure.8.data <-fread("C:/Users/alockhart/Desktop/online-harms-2024-main/Figure_8.csv")
 figure.8.data[,Trust:=str_remove(Trust,"%")][,Trust:=as.numeric(Trust)]
@@ -331,6 +358,7 @@ figure.15.data$Statement <- factor(figure.15.data$Statement, levels=(rev(c("Info
                                                                        
 ))))
 figure.15.data[,Statement:=str_wrap(Statement,20)][,Statement:=as.factor(Statement)][,Statement:=reorder(Statement,c(rep(5,9),rep(4,6),rep(3,9),rep(2,9),rep(1,6)))]
+figure.15.data$Statement <- factor(figure.15.data$Statement, levels=rev(levels(figure.15.data$Statement)))
 figure.15.data[,Frequency:=as.factor(Frequency)][,Frequency:=reorder(Frequency,c(rep(3,3),rep(2,3),rep(1,3),
                                                                                  rep(3,2),rep(2,2),rep(1,2),
                                                                                  rep(3,3),rep(2,3),rep(1,3),
@@ -509,7 +537,7 @@ figure.26 <- plot.column.dais(figure.26.data,Share,Source,group.by=Statement,sta
   geom_text(aes(label = paste0(round(Share, 0), "%")), 
             position = position_dodge(width = 0.6),
             vjust = -0.5) +
-  theme(legend.direction = "vertical")
+  guides(fill=guide_legend(ncol=2))
 
 figure.27.data <-fread("C:/Users/alockhart/Desktop/online-harms-2024-main/Figure_27.csv")
 
