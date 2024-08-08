@@ -41,7 +41,7 @@ figure.1 <- plot.column.dais(figure.1.data,
                              "Unsure"="grey"))+
   coord_flip() + 
   ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
-  geom_text_repel(aes(label = paste0(round(Measure, 0), "%")), 
+  geom_text(aes(label = paste0(round(Measure, 0), "%")), 
             position = position_stack(vjust = 0.5)) +
   guides(fill=guide_legend(reverse=TRUE)) + 
   theme(axis.title.y = element_blank())
