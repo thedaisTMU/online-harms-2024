@@ -35,15 +35,15 @@ figure.1 <- plot.column.dais(figure.1.data,
                              Measure, Platform,group.by=Frequency, stacked=TRUE,
                              label.unit = "%",
                              ) +
-  scale_fill_manual(values=c("A few times an hour"="#dd347a",
-                             "A few times a day"="#e35892",
-                             "A few times a week"="#e66b9e",
-                             "A few times a month"="#ec90b6",
+  scale_fill_manual(values=c("A few times an hour"="#7f3051",
+                             "A few times a day"="#ab2f63",
+                             "A few times a week"="#dd347a",
+                             "A few times a month"="#e66b9e",
                              "A few times a year"="#f2b5ce",
                              "I don’t use this"="#3b3b3b",
                              "Unsure"="grey"))+
   coord_flip() +
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  ##ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = label.b,colour=Frequency),
             position = position_stack(vjust = 0.5),family="Replica-Light") +
   scale_colour_manual(values=c("A few times an hour"="black",
@@ -111,7 +111,10 @@ figure.3.data$Platform <- factor(figure.3.data$Platform, levels=(c("YouTube",
 )))
 figure.3 <- plot.column.dais(figure.3.data,
                              Share,Platform, group.by=Age,stacked=FALSE,order.bar="descending",
-                             label.unit="%")
+                             label.unit="%")+
+  geom_text(aes(y=Share+3,label = paste0(round(Share, 0), "%")), size=2.3,
+            position = position_dodge(width = 0.6),family="Replica-Light",angle=90,
+            hjust = 0.5) +coord_cartesian(clip = 'off')
 
 figure.4.data <-fread("Figure_4.csv")
 figure.4.data[,Share:=str_remove(Share,"%")][,Share:=as.numeric(Share)]
@@ -212,7 +215,7 @@ figure.6 <- ggplot(figure.6.data,aes(Platform,Share,colour=Age)) + dais.base.the
 figure.7.data <-fread("Figure_7.csv")
 figure.7.data[,Share:=str_remove(Share,"%")][,Share:=as.numeric(Share)]
 figure.7.data[,Platform:=as.factor(Platform)][,Platform:=reorder(Platform,c(rep(1,15),rep(2,15)))]
-figure.7.data$Answer <- factor(figure.7.data$Answer, levels=c("Most Trust", "Least Trust"))
+figure.7.data$Answer <- factor(figure.7.data$Answer, levels=c("Most Trusted", "Least Trusted"))
 figure.7.data$Platform <- factor(figure.7.data$Platform, levels=c("News on TV",
                                                                    "News websites",
                                                                    "News on the radio",
@@ -260,12 +263,14 @@ figure.9.data[,Statement:=str_wrap(Statement,40)][,Statement:=as.factor(Statemen
 figure.9.data[,Answer:=as.factor(Answer)][,Answer:=reorder(Answer,c(rep(3,5),rep(2,5),rep(1,5)))]
 figure.9 <- plot.column.dais(figure.9.data,Share,Statement,order.bar = "ascending",group.by=Answer,stacked=TRUE,
                              colours = set.colours(3,categorical.choice=c("grey","black","hot.pink"))) + coord_flip() +
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour = Answer), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   scale_color_manual(values=c("Yes"="white","No"="white","Unsure"="black")) +
   guides(fill=guide_legend(reverse=TRUE),color="none") +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank()) +
+  scale_y_continuous(expand=c(0,0),limits=c(0,100),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
+
 
 figure.10.data <-fread("Figure_10.csv")
 figure.10.data[,Share:=str_remove(Share,"%")][,Share:=as.numeric(Share)]
@@ -278,11 +283,12 @@ figure.10.data <- figure.10.data %>%
 figure.10 <- plot.column.dais(figure.10.data,Share,Platform,group.by=Trust,stacked=TRUE,
                              colours = c("grey",rev(set.colours(3,type="gradient")))
                              ) + coord_flip() +
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   guides(fill=guide_legend(reverse=TRUE)) +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,100),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 
 figure.11.data <-fread("Figure_11.csv")
@@ -300,25 +306,32 @@ figure.11 <- ggplot(figure.11.data,aes(Year,Share,fill=Trust)) + dais.base.theme
         strip.background = element_blank(),
         strip.placement = "outside") +coord_flip() +
   scale_fill_manual(values = c("grey",rev(set.colours(3,type="gradient")))) +
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   guides(fill=guide_legend(reverse=TRUE)) +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,100),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 figure.12.data <-fread("Figure_12.csv")
 figure.12.data[,Share:=str_remove(Share,"%")][,Share:=as.numeric(Share)]
+figure.12.data <- figure.12.data %>%
+  group_by(Platform) %>%
+  mutate(Share = Share / sum(Share) * 100) %>%
+  ungroup() %>%
+  as.data.table()
 figure.12.data[,Platform:=as.factor(Platform)][,Platform:=reorder(Platform,rep(seq(8,1),4))]
 figure.12.data[,Trust:=as.factor(Trust)][,Trust:=reorder(Trust,c(rep(2,8),rep(3,8),rep(4,8),rep(1,8)))]
 figure.12 <- plot.column.dais(figure.12.data,Share,Platform,group.by=Trust,stacked=TRUE,
                               colours = c("grey",rev(set.colours(3,type="gradient")))
 ) + coord_flip()+
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colours=Trust), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
-  scale_colours_manual(values=c("High (7-9)"="white","Medium (4-6)"="black","Low (1-3)"="black","Dont know"="black")) +
+  scale_colour_manual(values=c("High (7-9)"="white","Medium (4-6)"="black","Low (1-3)"="black","Dont know"="black")) +
   guides(fill=guide_legend(reverse=TRUE),colours="none") +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,100),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 figure.13.data <-fread("Figure_13.csv")
 figure.13.data[,Share:=str_remove(Share,"%")][,Share:=as.numeric(Share)]
@@ -331,12 +344,13 @@ figure.13.data <- figure.13.data %>%
 figure.13 <- plot.column.dais(figure.13.data,Share,Source,group.by=Trust,stacked=TRUE,
                               colours = c("grey","black",rev(set.colours(2,type="gradient")))
 ) + coord_flip() +
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour = Trust), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   scale_color_manual(values=c("Strongly trust"="white","Somewhat trust"="black","Don't trust"="white","Don't know"="black")) +
   guides(fill=guide_legend(reverse=TRUE),colour="none") +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,100),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 
 figure.14.data <-fread("Figure_14.csv")
@@ -350,13 +364,14 @@ figure.14.data <- figure.14.data %>%
 figure.14 <- plot.column.dais(figure.14.data,Share,Statement,group.by=Frequency,stacked=TRUE,
                               colours = c("grey","black",rev(set.colours(4,type="gradient")))
 ) + coord_flip()+
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour=Frequency), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   scale_color_manual(values=c("A few times a day"="white","A few times a month"="black","Never"="white",
                               "A few times a week"="black","A few times a year"="black","Unsure"="black")) +
   guides(fill=guide_legend(reverse=TRUE),colour="none") +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,100),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 
 figure.15.data <-fread("Figure_15.csv")
@@ -387,11 +402,12 @@ figure.15 <- ggplot(figure.15.data,aes(Year,Share,fill=Frequency)) + dais.base.t
         strip.placement = "outside",
         strip.text.y.left = element_text(angle=0)) +coord_flip() +
   scale_fill_manual(values = rev(set.colours(3,type="gradient"))) +
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   guides(fill=guide_legend(reverse=TRUE)) +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,85),breaks=c(0,20,40,60,80),labels=c("0%","20%","40%","60%","80%"))
 
 
 figure.16.data <-fread("Figure_16.csv")
@@ -400,12 +416,13 @@ figure.16.data[,Statement:=str_wrap(Statement,40)][,Statement:=as.factor(Stateme
 figure.16.data[,Answer:=as.factor(Answer)][,Answer:=reorder(Answer,c(rep(3,3),rep(2,3),rep(1,3)))]
 figure.16 <- plot.column.dais(figure.16.data,Share,Statement,group.by=Answer,stacked=TRUE,
                               colours = set.colours(3,categorical.choice=c("grey","black","hot.pink"))) + coord_flip()+
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour=Answer), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   scale_colour_manual(values=c("Yes"="white","No"="white","Unsure"="black"))+
   guides(fill=guide_legend(reverse=TRUE),colour="none") +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,100),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 
 
@@ -418,7 +435,7 @@ figure.18 <- plot.column.dais(figure.18.data,Share,Statement,group.by=Age,label.
   geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",
             position = position_dodge(width = 0.6),
             vjust = -0.5) +
-  scale_y_continuous(expand=c(0,0),limits=c(0,40),breaks=c(0,10,20,30,40),labels="0%","10%","20%","30%","40%")
+  scale_y_continuous(expand=c(0,0),limits=c(0,40),breaks=c(0,10,20,30,40),labels=c("0%","10%","20%","30%","40%"))
 
 
 figure.19.data <-fread("Figure_19.csv")
@@ -427,7 +444,7 @@ figure.19.data[,Statement:=str_wrap(Statement,30)][,Statement:=as.factor(Stateme
 figure.19.data[,Answer:=as.factor(Answer)][,Answer:=reorder(Answer,c(rep(3,4),rep(2,4),rep(1,4)))]
 figure.19 <- plot.column.dais(figure.19.data,Share,Statement,group.by=Answer,stacked=TRUE,
                               colours = set.colours(3,categorical.choice=c("grey","black","hot.pink"))) + coord_flip() +
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour=Answer), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   scale_colour_manual(values=c("Yes"="white","No"="white","Unsure"="black"))+
@@ -471,13 +488,14 @@ figure.22.data[Share>=4,label.b:=str_c(round(Share,0),"%")]
 figure.22 <- plot.column.dais(figure.22.data,Share,Statement,group.by=Truth,stacked=TRUE,
                               colours = set.colours(5,categorical.choice = c("grey","hot.pink","orange","light.blue","blue"))
 ) + coord_flip() +
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = label.b,colour=Truth), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   scale_color_manual(values=c("Definitely true"="white","Somewhat true"="black","Somewhat not true"="black",
                               "Definitely not true"="white","Don't know"="black"))  +
   guides(fill=guide_legend(reverse=TRUE,title=NULL,ncol=2),colour="none") +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,101),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 
 figure.23.data <-fread("Figure_23.csv")
@@ -526,11 +544,12 @@ figure.23 <- ggplot(figure.23.data,aes(Category,Share,fill=Correct)) + dais.base
         strip.placement = "outside",
         strip.text.y.left = element_blank()) +coord_flip() +
   scale_fill_manual(values = (set.colours(3,type="gradient"))) +
-  ylab(NULL) +
+  #ylab(NULL) +
   geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   guides(fill=guide_legend(reverse=TRUE)) +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,101),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 figure.25.data <-fread("Figure_25.csv")
 figure.25.data <- figure.25.data[Belief!="Total"]
@@ -540,10 +559,11 @@ figure.25.data[,Belief:=as.factor(Belief)][,Belief:=reorder(Belief,c(rep(3,14),r
 figure.25 <- plot.column.dais(figure.25.data,Share,Platform,group.by=Belief,stacked=FALSE,
                               colours = set.colours(3,categorical.choice = c("gold","black","hot.pink"))
 ) + coord_flip() + guides(fill=guide_legend(reverse=TRUE)) +
-  ylab(NULL) + scale_y_continuous(breaks = NULL, limits = c(0,100), expand=c(0,0)) +
+  #ylab(NULL) + scale_y_continuous(breaks = NULL, limits = c(0,100), expand=c(0,0)) +
   geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",size=2.7,
             position = position_dodge(width = 0.6),
-            hjust = -0.5)
+            hjust = -0.5)+
+  scale_y_continuous(expand=c(0,0),limits=c(0,80),breaks=c(0,20,40,60,80),labels=c("0%","20%","40%","60%","80%"))
 
 figure.26.data <-fread("Figure_26.csv")
 figure.26.data[,Share:=str_remove(Share,"%")][,Share:=as.numeric(Share)]
@@ -564,12 +584,13 @@ figure.28.data[,Support:=as.factor(Support)][,Support:=reorder(Support,c(rep(6,1
 figure.28 <- plot.column.dais(figure.28.data,Share,Statement,group.by=Support,stacked=TRUE,
                               colours = set.colours(6,categorical.choice = c("grey","hot.pink","orange","teal","light.blue","blue"))
 ) + coord_flip() +
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(data=figure.28.data[Support %in% c("Strongly support","Somewhat support","Neutral")],aes(label = paste0(round(Share, 0), "%"),colour=Support), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
   scale_color_manual(values=c("Strongly support"="white","Somewhat support"="black",Neutral="black")) +
   guides(fill=guide_legend(reverse=TRUE),color="none") +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,101),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 
 
@@ -604,12 +625,13 @@ figure.29 <- ggplot(figure.29.data,aes(Year,Share,fill=Support)) + dais.base.the
         strip.placement = "outside",
         strip.text.y.left  = element_text(angle=0)) + coord_flip() +
   scale_fill_manual(values = rev(set.colours(2,type="gradient")))+
-  ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
+  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour=Support), family="Replica-Light",size=2.7,
             position = position_stack(vjust = 0.5)) +
   scale_colour_manual(values=c("Strongly support"="white","Somewhat support"="black")) +
   guides(fill=guide_legend(reverse=TRUE),colour="none") +
-  theme(axis.title.y = element_blank())
+  theme(axis.title.y = element_blank())+
+  scale_y_continuous(expand=c(0,0),limits=c(0,100),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 
 
