@@ -1,10 +1,10 @@
-Point,Trust
-0 - No Correct Statement,2%
-1,3%
-2,5%
-3,8%
-4,12%
-5,15%
-6,17%
-7,21%
-8 - All Correct Statements,16%
+﻿Point,Trust,Point_FR
+0 - No Correct Statement,2%,0 - Aucune réponse correcte
+1,3%,1
+2,5%,2
+3,8%,3
+4,12%,4
+5,15%,5
+6,17%,6
+7,21%,7
+8 - All Correct Statements,16%,8 - Toutes les réponses correctes

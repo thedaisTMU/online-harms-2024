@@ -1,41 +1,41 @@
-Statement,Truth,Share
-The number of natural disasters is increasing due to climate change,Definitely true,43%
-There is a group of people in Canada who are trying to replace native born Canadians with immigrants who agree with their political views,Definitely true,10%
-Climate change is a natural phenomenon not caused by human activities,Definitely true,7%
-The 15-minute city is designed to track and limit the movement of Canadians to their immediate neighbourhood,Definitely true,7%
-A man’s dating success is determined entirely by his physical attractiveness and so is determined at birth,Definitely true,2%
-Bill Gates used the COVID-19 pandemic to push a vaccine with a microchip capable of tracking people,Definitely true,3%
-"Ukrainian nationalism is a neo-Nazi movement, so Russia invaded Ukraine to protect people",Definitely true,3%
-The Holocaust has been exaggerated,Definitely true,2%
-The number of natural disasters is increasing due to climate change,Somewhat true,35%
-There is a group of people in Canada who are trying to replace native born Canadians with immigrants who agree with their political views,Somewhat true,16%
-Climate change is a natural phenomenon not caused by human activities,Somewhat true,16%
-The 15-minute city is designed to track and limit the movement of Canadians to their immediate neighbourhood,Somewhat true,13%
-A man’s dating success is determined entirely by his physical attractiveness and so is determined at birth,Somewhat true,14%
-Bill Gates used the COVID-19 pandemic to push a vaccine with a microchip capable of tracking people,Somewhat true,6%
-"Ukrainian nationalism is a neo-Nazi movement, so Russia invaded Ukraine to protect people",Somewhat true,5%
-The Holocaust has been exaggerated,Somewhat true,5%
-The number of natural disasters is increasing due to climate change,Somewhat not true,8%
-There is a group of people in Canada who are trying to replace native born Canadians with immigrants who agree with their political views,Somewhat not true,16%
-Climate change is a natural phenomenon not caused by human activities,Somewhat not true,24%
-The 15-minute city is designed to track and limit the movement of Canadians to their immediate neighbourhood,Somewhat not true,10%
-A man’s dating success is determined entirely by his physical attractiveness and so is determined at birth,Somewhat not true,24%
-Bill Gates used the COVID-19 pandemic to push a vaccine with a microchip capable of tracking people,Somewhat not true,9%
-"Ukrainian nationalism is a neo-Nazi movement, so Russia invaded Ukraine to protect people",Somewhat not true,9%
-The Holocaust has been exaggerated,Somewhat not true,11%
-The number of natural disasters is increasing due to climate change,Definitely not true,6%
-There is a group of people in Canada who are trying to replace native born Canadians with immigrants who agree with their political views,Definitely not true,33%
-Climate change is a natural phenomenon not caused by human activities,Definitely not true,47%
-The 15-minute city is designed to track and limit the movement of Canadians to their immediate neighbourhood,Definitely not true,25%
-A man’s dating success is determined entirely by his physical attractiveness and so is determined at birth,Definitely not true,53%
-Bill Gates used the COVID-19 pandemic to push a vaccine with a microchip capable of tracking people,Definitely not true,66%
-"Ukrainian nationalism is a neo-Nazi movement, so Russia invaded Ukraine to protect people",Definitely not true,59%
-The Holocaust has been exaggerated,Definitely not true,70%
-The number of natural disasters is increasing due to climate change,Don’t know,7%
-There is a group of people in Canada who are trying to replace native born Canadians with immigrants who agree with their political views,Don’t know,26%
-Climate change is a natural phenomenon not caused by human activities,Don’t know,6%
-The 15-minute city is designed to track and limit the movement of Canadians to their immediate neighbourhood,Don’t know,45%
-A man’s dating success is determined entirely by his physical attractiveness and so is determined at birth,Don’t know,7%
-Bill Gates used the COVID-19 pandemic to push a vaccine with a microchip capable of tracking people,Don’t know,16%
-"Ukrainian nationalism is a neo-Nazi movement, so Russia invaded Ukraine to protect people",Don’t know,24%
-The Holocaust has been exaggerated,Don’t know,11%
+﻿Statement,Truth,Share,Statement_FR,Truth_FR
+The number of natural disasters is increasing due to climate change,Definitely true,43%,Le nombre de catastrophes naturelles augmente en raison des changements climatiques,Tout à fait vrai
+There is a group of people in Canada who are trying to replace native born Canadians with immigrants who agree with their political views,Definitely true,10%,"Au Canada, un groupe de personnes tente de remplacer les personnes canadiennes de souche par des personnes immigrantes qui partagent leurs opinions politiques",Tout à fait vrai
+Climate change is a natural phenomenon not caused by human activities,Definitely true,7%,Les changements climatiques sont un phénomène naturel qui n’est pas causé par l’activité humaine,Tout à fait vrai
+The 15-minute city is designed to track and limit the movement of Canadians to their immediate neighbourhood,Definitely true,7%,La ville de 15 minutes est conçue pour effectuer le suivi des mouvements des Canadiens et des Canadiens et les limiter à leur voisinage immédiat,Tout à fait vrai
+A manâ€™s dating success is determined entirely by his physical attractiveness and so is determined at birth,Definitely true,2%,Le succès d’un homme dans ses relations amoureuses est entièrement déterminé par son attrait physique et est donc déterminé à la naissance,Tout à fait vrai
+Bill Gates used the COVID-19 pandemic to push a vaccine with a microchip capable of tracking people,Definitely true,3%,Bill Gates a profité de la pandémie de COVID-19 pour promouvoir un vaccin doté d’une puce électronique capable d’effectuer le suivi des gens,Tout à fait vrai
+"Ukrainian nationalism is a neo-Nazi movement, so Russia invaded Ukraine to protect people",Definitely true,3%,"Le nationalisme ukrainien est un mouvement néo-nazi, donc la Russie a envahi l’Ukraine pour protéger les gens",Tout à fait vrai
+The Holocaust has been exaggerated,Definitely true,2%,L’Holocauste a été exagéré,Tout à fait vrai
+The number of natural disasters is increasing due to climate change,Somewhat true,35%,Le nombre de catastrophes naturelles augmente en raison des changements climatiques,Plus ou moins vrai
+There is a group of people in Canada who are trying to replace native born Canadians with immigrants who agree with their political views,Somewhat true,16%,"Au Canada, un groupe de personnes tente de remplacer les personnes canadiennes de souche par des personnes immigrantes qui partagent leurs opinions politiques",Plus ou moins vrai
+Climate change is a natural phenomenon not caused by human activities,Somewhat true,16%,Les changements climatiques sont un phénomène naturel qui n’est pas causé par l’activité humaine,Plus ou moins vrai
+The 15-minute city is designed to track and limit the movement of Canadians to their immediate neighbourhood,Somewhat true,13%,La ville de 15 minutes est conçue pour effectuer le suivi des mouvements des Canadiens et des Canadiens et les limiter à leur voisinage immédiat,Plus ou moins vrai
+A manâ€™s dating success is determined entirely by his physical attractiveness and so is determined at birth,Somewhat true,14%,Le succès d’un homme dans ses relations amoureuses est entièrement déterminé par son attrait physique et est donc déterminé à la naissance,Plus ou moins vrai
+Bill Gates used the COVID-19 pandemic to push a vaccine with a microchip capable of tracking people,Somewhat true,6%,Bill Gates a profité de la pandémie de COVID-19 pour promouvoir un vaccin doté d’une puce électronique capable d’effectuer le suivi des gens,Plus ou moins vrai
+"Ukrainian nationalism is a neo-Nazi movement, so Russia invaded Ukraine to protect people",Somewhat true,5%,"Le nationalisme ukrainien est un mouvement néo-nazi, donc la Russie a envahi l’Ukraine pour protéger les gens",Plus ou moins vrai
+The Holocaust has been exaggerated,Somewhat true,5%,L’Holocauste a été exagéré,Plus ou moins vrai
+The number of natural disasters is increasing due to climate change,Somewhat not true,8%,Le nombre de catastrophes naturelles augmente en raison des changements climatiques,Plutôt faux
+There is a group of people in Canada who are trying to replace native born Canadians with immigrants who agree with their political views,Somewhat not true,16%,"Au Canada, un groupe de personnes tente de remplacer les personnes canadiennes de souche par des personnes immigrantes qui partagent leurs opinions politiques",Plutôt faux
+Climate change is a natural phenomenon not caused by human activities,Somewhat not true,24%,Les changements climatiques sont un phénomène naturel qui n’est pas causé par l’activité humaine,Plutôt faux
+The 15-minute city is designed to track and limit the movement of Canadians to their immediate neighbourhood,Somewhat not true,10%,La ville de 15 minutes est conçue pour effectuer le suivi des mouvements des Canadiens et des Canadiens et les limiter à leur voisinage immédiat,Plutôt faux
+A manâ€™s dating success is determined entirely by his physical attractiveness and so is determined at birth,Somewhat not true,24%,Le succès d’un homme dans ses relations amoureuses est entièrement déterminé par son attrait physique et est donc déterminé à la naissance,Plutôt faux
+Bill Gates used the COVID-19 pandemic to push a vaccine with a microchip capable of tracking people,Somewhat not true,9%,Bill Gates a profité de la pandémie de COVID-19 pour promouvoir un vaccin doté d’une puce électronique capable d’effectuer le suivi des gens,Plutôt faux
+"Ukrainian nationalism is a neo-Nazi movement, so Russia invaded Ukraine to protect people",Somewhat not true,9%,"Le nationalisme ukrainien est un mouvement néo-nazi, donc la Russie a envahi l’Ukraine pour protéger les gens",Plutôt faux
+The Holocaust has been exaggerated,Somewhat not true,11%,L’Holocauste a été exagéré,Plutôt faux
+The number of natural disasters is increasing due to climate change,Definitely not true,6%,Le nombre de catastrophes naturelles augmente en raison des changements climatiques,Tout à fait faux
+There is a group of people in Canada who are trying to replace native born Canadians with immigrants who agree with their political views,Definitely not true,33%,"Au Canada, un groupe de personnes tente de remplacer les personnes canadiennes de souche par des personnes immigrantes qui partagent leurs opinions politiques",Tout à fait faux
+Climate change is a natural phenomenon not caused by human activities,Definitely not true,47%,Les changements climatiques sont un phénomène naturel qui n’est pas causé par l’activité humaine,Tout à fait faux
+The 15-minute city is designed to track and limit the movement of Canadians to their immediate neighbourhood,Definitely not true,25%,La ville de 15 minutes est conçue pour effectuer le suivi des mouvements des Canadiens et des Canadiens et les limiter à leur voisinage immédiat,Tout à fait faux
+A manâ€™s dating success is determined entirely by his physical attractiveness and so is determined at birth,Definitely not true,53%,Le succès d’un homme dans ses relations amoureuses est entièrement déterminé par son attrait physique et est donc déterminé à la naissance,Tout à fait faux
+Bill Gates used the COVID-19 pandemic to push a vaccine with a microchip capable of tracking people,Definitely not true,66%,Bill Gates a profité de la pandémie de COVID-19 pour promouvoir un vaccin doté d’une puce électronique capable d’effectuer le suivi des gens,Tout à fait faux
+"Ukrainian nationalism is a neo-Nazi movement, so Russia invaded Ukraine to protect people",Definitely not true,59%,"Le nationalisme ukrainien est un mouvement néo-nazi, donc la Russie a envahi l’Ukraine pour protéger les gens",Tout à fait faux
+The Holocaust has been exaggerated,Definitely not true,70%,L’Holocauste a été exagéré,Tout à fait faux
+The number of natural disasters is increasing due to climate change,Donâ€™t know,7%,Le nombre de catastrophes naturelles augmente en raison des changements climatiques,Je ne sais pas
+There is a group of people in Canada who are trying to replace native born Canadians with immigrants who agree with their political views,Donâ€™t know,26%,"Au Canada, un groupe de personnes tente de remplacer les personnes canadiennes de souche par des personnes immigrantes qui partagent leurs opinions politiques",Je ne sais pas
+Climate change is a natural phenomenon not caused by human activities,Donâ€™t know,6%,Les changements climatiques sont un phénomène naturel qui n’est pas causé par l’activité humaine,Je ne sais pas
+The 15-minute city is designed to track and limit the movement of Canadians to their immediate neighbourhood,Donâ€™t know,45%,La ville de 15 minutes est conçue pour effectuer le suivi des mouvements des Canadiens et des Canadiens et les limiter à leur voisinage immédiat,Je ne sais pas
+A manâ€™s dating success is determined entirely by his physical attractiveness and so is determined at birth,Donâ€™t know,7%,Le succès d’un homme dans ses relations amoureuses est entièrement déterminé par son attrait physique et est donc déterminé à la naissance,Je ne sais pas
+Bill Gates used the COVID-19 pandemic to push a vaccine with a microchip capable of tracking people,Donâ€™t know,16%,Bill Gates a profité de la pandémie de COVID-19 pour promouvoir un vaccin doté d’une puce électronique capable d’effectuer le suivi des gens,Je ne sais pas
+"Ukrainian nationalism is a neo-Nazi movement, so Russia invaded Ukraine to protect people",Donâ€™t know,24%,"Le nationalisme ukrainien est un mouvement néo-nazi, donc la Russie a envahi l’Ukraine pour protéger les gens",Je ne sais pas
+The Holocaust has been exaggerated,Donâ€™t know,11%,L’Holocauste a été exagéré,Je ne sais pas

@@ -1,57 +1,57 @@
-Platform,Belief,Share
-TikTok,Total,55%
-Twitter / X,Total,48%
-Facebook/Meta,Total,45%
-Open AI,Total,33%
-Apple,Total,20%
-CNN,Total,21%
-Google,Total,16%
-Microsoft,Total,17%
-Wikipedia,Total,17%
-CTV,Total,15%
-The Globe and Mail,Total,14%
-Canadian Tire,Total,9%
-Global News,Total,13%
-CBC/Radio-Canada,Total,15%
-TikTok,High Belief in Misinformation,37%
-Twitter / X,High Belief in Misinformation,22%
-Facebook/Meta,High Belief in Misinformation,36%
-Open AI,High Belief in Misinformation,32%
-Apple,High Belief in Misinformation,23%
-CNN,High Belief in Misinformation,36%
-Google,High Belief in Misinformation,21%
-Microsoft,High Belief in Misinformation,24%
-Wikipedia,High Belief in Misinformation,22%
-CTV,High Belief in Misinformation,28%
-The Globe and Mail,High Belief in Misinformation,25%
-Canadian Tire,High Belief in Misinformation,11%
-Global News,High Belief in Misinformation,26%
-CBC/Radio-Canada,High Belief in Misinformation,31%
-TikTok,Midpoint Belief in Misinformation,52%
-Twitter / X,Midpoint Belief in Misinformation,41%
-Facebook/Meta,Midpoint Belief in Misinformation,42%
-Open AI,Midpoint Belief in Misinformation,31%
-Apple,Midpoint Belief in Misinformation,19%
-CNN,Midpoint Belief in Misinformation,25%
-Google,Midpoint Belief in Misinformation,17%
-Microsoft,Midpoint Belief in Misinformation,18%
-Wikipedia,Midpoint Belief in Misinformation,20%
-CTV,Midpoint Belief in Misinformation,19%
-The Globe and Mail,Midpoint Belief in Misinformation,17%
-Canadian Tire,Midpoint Belief in Misinformation,9%
-Global News,Midpoint Belief in Misinformation,17%
-CBC/Radio-Canada,Midpoint Belief in Misinformation,22%
-TikTok,Low Belief in Misinformation,61%
-Twitter / X,Low Belief in Misinformation,58%
-Facebook/Meta,Low Belief in Misinformation,49%
-Open AI,Low Belief in Misinformation,35%
-Apple,Low Belief in Misinformation,20%
-CNN,Low Belief in Misinformation,15%
-Google,Low Belief in Misinformation,14%
-Microsoft,Low Belief in Misinformation,14%
-Wikipedia,Low Belief in Misinformation,14%
-CTV,Low Belief in Misinformation,10%
-The Globe and Mail,Low Belief in Misinformation,9%
-Canadian Tire,Low Belief in Misinformation,9%
-Global News,Low Belief in Misinformation,7%
-CBC/Radio-Canada,Low Belief in Misinformation,7%
+﻿Platform,Belief,Share,Platform_FR,Belief_FR
+TikTok,Total,55%,TikTok,Dans l'ensemble
+Twitter / X,Total,48%,Twitter / X,Dans l'ensemble
+Facebook/Meta,Total,45%,Facebook/Meta,Dans l'ensemble
+Open AI,Total,33%,Open AI,Dans l'ensemble
+Apple,Total,20%,Apple,Dans l'ensemble
+CNN,Total,21%,CNN,Dans l'ensemble
+Google,Total,16%,Google,Dans l'ensemble
+Microsoft,Total,17%,Microsoft,Dans l'ensemble
+Wikipedia,Total,17%,Wikipedia,Dans l'ensemble
+CTV,Total,15%,CTV,Dans l'ensemble
+The Globe and Mail,Total,14%,The Globe and Mail,Dans l'ensemble
+Canadian Tire,Total,9%,Canadian Tire,Dans l'ensemble
+Global News,Total,13%,Global News,Dans l'ensemble
+CBC/Radio-Canada,Total,15%,CBC/Radio-Canada,Dans l'ensemble
+TikTok,High Belief in Misinformation,37%,TikTok,Forte croyance en la désinformation
+Twitter / X,High Belief in Misinformation,22%,Twitter / X,Forte croyance en la désinformation
+Facebook/Meta,High Belief in Misinformation,36%,Facebook/Meta,Forte croyance en la désinformation
+Open AI,High Belief in Misinformation,32%,Open AI,Forte croyance en la désinformation
+Apple,High Belief in Misinformation,23%,Apple,Forte croyance en la désinformation
+CNN,High Belief in Misinformation,36%,CNN,Forte croyance en la désinformation
+Google,High Belief in Misinformation,21%,Google,Forte croyance en la désinformation
+Microsoft,High Belief in Misinformation,24%,Microsoft,Forte croyance en la désinformation
+Wikipedia,High Belief in Misinformation,22%,Wikipedia,Forte croyance en la désinformation
+CTV,High Belief in Misinformation,28%,CTV,Forte croyance en la désinformation
+The Globe and Mail,High Belief in Misinformation,25%,The Globe and Mail,Forte croyance en la désinformation
+Canadian Tire,High Belief in Misinformation,11%,Canadian Tire,Forte croyance en la désinformation
+Global News,High Belief in Misinformation,26%,Global News,Forte croyance en la désinformation
+CBC/Radio-Canada,High Belief in Misinformation,31%,CBC/Radio-Canada,Forte croyance en la désinformation
+TikTok,Midpoint Belief in Misinformation,52%,TikTok,Croyance à mi-parcours en la désinformation
+Twitter / X,Midpoint Belief in Misinformation,41%,Twitter / X,Croyance à mi-parcours en la désinformation
+Facebook/Meta,Midpoint Belief in Misinformation,42%,Facebook/Meta,Croyance à mi-parcours en la désinformation
+Open AI,Midpoint Belief in Misinformation,31%,Open AI,Croyance à mi-parcours en la désinformation
+Apple,Midpoint Belief in Misinformation,19%,Apple,Croyance à mi-parcours en la désinformation
+CNN,Midpoint Belief in Misinformation,25%,CNN,Croyance à mi-parcours en la désinformation
+Google,Midpoint Belief in Misinformation,17%,Google,Croyance à mi-parcours en la désinformation
+Microsoft,Midpoint Belief in Misinformation,18%,Microsoft,Croyance à mi-parcours en la désinformation
+Wikipedia,Midpoint Belief in Misinformation,20%,Wikipedia,Croyance à mi-parcours en la désinformation
+CTV,Midpoint Belief in Misinformation,19%,CTV,Croyance à mi-parcours en la désinformation
+The Globe and Mail,Midpoint Belief in Misinformation,17%,The Globe and Mail,Croyance à mi-parcours en la désinformation
+Canadian Tire,Midpoint Belief in Misinformation,9%,Canadian Tire,Croyance à mi-parcours en la désinformation
+Global News,Midpoint Belief in Misinformation,17%,Global News,Croyance à mi-parcours en la désinformation
+CBC/Radio-Canada,Midpoint Belief in Misinformation,22%,CBC/Radio-Canada,Croyance à mi-parcours en la désinformation
+TikTok,Low Belief in Misinformation,61%,TikTok,Faible croyance en la désinformation
+Twitter / X,Low Belief in Misinformation,58%,Twitter / X,Faible croyance en la désinformation
+Facebook/Meta,Low Belief in Misinformation,49%,Facebook/Meta,Faible croyance en la désinformation
+Open AI,Low Belief in Misinformation,35%,Open AI,Faible croyance en la désinformation
+Apple,Low Belief in Misinformation,20%,Apple,Faible croyance en la désinformation
+CNN,Low Belief in Misinformation,15%,CNN,Faible croyance en la désinformation
+Google,Low Belief in Misinformation,14%,Google,Faible croyance en la désinformation
+Microsoft,Low Belief in Misinformation,14%,Microsoft,Faible croyance en la désinformation
+Wikipedia,Low Belief in Misinformation,14%,Wikipedia,Faible croyance en la désinformation
+CTV,Low Belief in Misinformation,10%,CTV,Faible croyance en la désinformation
+The Globe and Mail,Low Belief in Misinformation,9%,The Globe and Mail,Faible croyance en la désinformation
+Canadian Tire,Low Belief in Misinformation,9%,Canadian Tire,Faible croyance en la désinformation
+Global News,Low Belief in Misinformation,7%,Global News,Faible croyance en la désinformation
+CBC/Radio-Canada,Low Belief in Misinformation,7%,CBC/Radio-Canada,Faible croyance en la désinformation

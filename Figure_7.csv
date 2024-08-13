@@ -1,31 +1,31 @@
-Platform,Answer,Share
-News on TV,Most Trusted,33%
-News websites,Most Trusted,14%
-News on the radio,Most Trusted,9%
-Search engines,Most Trusted,5%
-YouTube,Most Trusted,3%
-Print newspapers,Most Trusted,3%
-"Messages from friends, etc",Most Trusted,3%
-Twitter / X,Most Trusted,3%
-Facebook,Most Trusted,2%
-Instagram,Most Trusted,2%
-Mobile news alerts,Most Trusted,2%
-TikTok,Most Trusted,1%
-Other,Most Trusted,7%
-None of the above,Most Trusted,6%
-Don't know,Most Trusted,5%
-News on TV,Least Trusted,4%
-News websites,Least Trusted,4%
-News on the radio,Least Trusted,1%
-Search engines,Least Trusted,6%
-YouTube,Least Trusted,2%
-Print newspapers,Least Trusted,1%
-"Messages from friends, etc",Least Trusted,3%
-Twitter / X,Least Trusted,3%
-Facebook,Least Trusted,12%
-Instagram,Least Trusted,4%
-Mobile news alerts,Least Trusted,1%
-TikTok,Least Trusted,4%
-Other,Least Trusted,7%
-None of the above,Least Trusted,29%
-Don't know,Least Trusted,18%
+﻿Platform,Answer,Share,Platform_FR,Answer_FR
+News on TV,Most Trusted,33%,Nouvelles à la télévision,Le plus fiable
+News websites,Most Trusted,14%,Sites Web de nouvelles,Le plus fiable
+News on the radio,Most Trusted,9%,Nouvelles à la radio,Le plus fiable
+Search engines,Most Trusted,5%,"Moteurs de recherche, comme Google",Le plus fiable
+YouTube,Most Trusted,3%,YouTube,Le plus fiable
+Print newspapers,Most Trusted,3%,Journaux imprimés,Le plus fiable
+"Messages from friends, etc",Most Trusted,3%,"Messages d’amies ou d’amis, etc",Le plus fiable
+Twitter / X,Most Trusted,3%,Twitter/X,Le plus fiable
+Facebook,Most Trusted,2%,Facebook,Le plus fiable
+Instagram,Most Trusted,2%,Instagram,Le plus fiable
+Mobile news alerts,Most Trusted,2%,Alertes d’information sur votre appareil mobile,Le plus fiable
+TikTok,Most Trusted,1%,TikTok,Le plus fiable
+Other,Most Trusted,7%,Autres,Le plus fiable
+None of the above,Most Trusted,6%,Aucune de ces réponses,Le plus fiable
+Don't know,Most Trusted,5%,Ne sais pas,Le plus fiable
+News on TV,Least Trusted,4%,Nouvelles à la télévision,Le moins fiable
+News websites,Least Trusted,4%,Sites Web de nouvelles,Le moins fiable
+News on the radio,Least Trusted,1%,Nouvelles à la radio,Le moins fiable
+Search engines,Least Trusted,6%,"Moteurs de recherche, comme Google",Le moins fiable
+YouTube,Least Trusted,2%,YouTube,Le moins fiable
+Print newspapers,Least Trusted,1%,Journaux imprimés,Le moins fiable
+"Messages from friends, etc",Least Trusted,3%,"Messages d’amies ou d’amis, etc",Le moins fiable
+Twitter / X,Least Trusted,3%,Twitter/X,Le moins fiable
+Facebook,Least Trusted,12%,Facebook,Le moins fiable
+Instagram,Least Trusted,4%,Instagram,Le moins fiable
+Mobile news alerts,Least Trusted,1%,Alertes d’information sur votre appareil mobile,Le moins fiable
+TikTok,Least Trusted,4%,TikTok,Le moins fiable
+Other,Least Trusted,7%,Autres,Le moins fiable
+None of the above,Least Trusted,29%,Aucune de ces réponses,Le moins fiable
+Don't know,Least Trusted,18%,Ne sais pas,Le moins fiable

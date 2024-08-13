@@ -1,85 +1,73 @@
-Statement,Frequency,Share
+﻿Statement,Frequency,Share,Statement_FR,Frequency_FR
 "Information about the news or current 
-events that you immediately suspect to be false",A few times a day,9%
+events that you immediately suspect to be false",A few times a day,9%,Informations sur les nouvelles ou les événements actuels que vous soupçonnez immédiatement d’être fausses,Quelques fois par jour
 "Information about the news or current events 
-that you believe to be true and later find out is false",A few times a day,5%
+that you believe to be true and later find out is false",A few times a day,5%,Informations sur les nouvelles ou les événements actuels que vous croyez vraies et qui s’avèrent fausses par la suite,Quelques fois par jour
 "Hate speech that deliberately promotes 
-hatred against an identifiable group",A few times a day,7%
-"Synthetic media or “deep fake” images or 
+hatred against an identifiable group",A few times a day,7%,Discours haineux qui fomente délibérément la haine contre un groupe identifiable,Quelques fois par jour
+"Synthetic media or â€œdeep fakeâ€ images or 
 videos that depict people doing or 
-saying things that never actually happened",A few times a day,6%
-Identity fraud or impersonation,A few times a day,5%
+saying things that never actually happened",A few times a day,6%,Médias synthétiques ou images ou vidéos « hypertruquées » qui montrent des personnes qui font ou disent des choses qui ne se sont jamais produites,Quelques fois par jour
+Identity fraud or impersonation,A few times a day,5%,Fraude d’identité ou usurpation d’identité,Quelques fois par jour
 "Promotion or encouragement 
-of physical violence",A few times a day,4%
+of physical violence",A few times a day,4%,Promotion de la violence physique ou incitation à la violence physique,Quelques fois par jour
 "Information about the news or current 
-events that you immediately suspect to be false",A few times a week,23%
+events that you immediately suspect to be false",A few times a week,23%,Informations sur les nouvelles ou les événements actuels que vous soupçonnez immédiatement d’être fausses,Quelques fois par semaine
 "Information about the news or current events 
-that you believe to be true and later find out is false",A few times a week,12%
+that you believe to be true and later find out is false",A few times a week,12%,Informations sur les nouvelles ou les événements actuels que vous croyez vraies et qui s’avèrent fausses par la suite,Quelques fois par semaine
 "Hate speech that deliberately promotes 
-hatred against an identifiable group",A few times a week,16%
-"Synthetic media or “deep fake” images or 
+hatred against an identifiable group",A few times a week,16%,Discours haineux qui fomente délibérément la haine contre un groupe identifiable,Quelques fois par semaine
+"Synthetic media or â€œdeep fakeâ€ images or 
 videos that depict people doing or 
-saying things that never actually happened",A few times a week,17%
-Identity fraud or impersonation,A few times a week,15%
+saying things that never actually happened",A few times a week,17%,Médias synthétiques ou images ou vidéos « hypertruquées » qui montrent des personnes qui font ou disent des choses qui ne se sont jamais produites,Quelques fois par semaine
+Identity fraud or impersonation,A few times a week,15%,Fraude d’identité ou usurpation d’identité,Quelques fois par semaine
 "Promotion or encouragement 
-of physical violence",A few times a week,12%
+of physical violence",A few times a week,12%,Promotion de la violence physique ou incitation à la violence physique,Quelques fois par semaine
 "Information about the news or current 
-events that you immediately suspect to be false",A few times a month,23%
+events that you immediately suspect to be false",A few times a month,23%,Informations sur les nouvelles ou les événements actuels que vous soupçonnez immédiatement d’être fausses,Quelques fois par mois
 "Information about the news or current events 
-that you believe to be true and later find out is false",A few times a month,21%
+that you believe to be true and later find out is false",A few times a month,21%,Informations sur les nouvelles ou les événements actuels que vous croyez vraies et qui s’avèrent fausses par la suite,Quelques fois par mois
 "Hate speech that deliberately promotes 
-hatred against an identifiable group",A few times a month,18%
-"Synthetic media or “deep fake” images or 
+hatred against an identifiable group",A few times a month,18%,Discours haineux qui fomente délibérément la haine contre un groupe identifiable,Quelques fois par mois
+"Synthetic media or â€œdeep fakeâ€ images or 
 videos that depict people doing or 
-saying things that never actually happened",A few times a month,19%
-Identity fraud or impersonation,A few times a month,18%
+saying things that never actually happened",A few times a month,19%,Médias synthétiques ou images ou vidéos « hypertruquées » qui montrent des personnes qui font ou disent des choses qui ne se sont jamais produites,Quelques fois par mois
+Identity fraud or impersonation,A few times a month,18%,Fraude d’identité ou usurpation d’identité,Quelques fois par mois
 "Promotion or encouragement 
-of physical violence",A few times a month,15%
+of physical violence",A few times a month,15%,Promotion de la violence physique ou incitation à la violence physique,Quelques fois par mois
 "Information about the news or current 
-events that you immediately suspect to be false",A few times a year,20%
+events that you immediately suspect to be false",A few times a year,20%,Informations sur les nouvelles ou les événements actuels que vous soupçonnez immédiatement d’être fausses,Quelques fois par année
 "Information about the news or current events 
-that you believe to be true and later find out is false",A few times a year,29%
+that you believe to be true and later find out is false",A few times a year,29%,Informations sur les nouvelles ou les événements actuels que vous croyez vraies et qui s’avèrent fausses par la suite,Quelques fois par année
 "Hate speech that deliberately promotes 
-hatred against an identifiable group",A few times a year,22%
-"Synthetic media or “deep fake” images or 
+hatred against an identifiable group",A few times a year,22%,Discours haineux qui fomente délibérément la haine contre un groupe identifiable,Quelques fois par année
+"Synthetic media or â€œdeep fakeâ€ images or 
 videos that depict people doing or 
-saying things that never actually happened",A few times a year,18%
-Identity fraud or impersonation,A few times a year,20%
+saying things that never actually happened",A few times a year,18%,Médias synthétiques ou images ou vidéos « hypertruquées » qui montrent des personnes qui font ou disent des choses qui ne se sont jamais produites,Quelques fois par année
+Identity fraud or impersonation,A few times a year,20%,Fraude d’identité ou usurpation d’identité,Quelques fois par année
 "Promotion or encouragement 
-of physical violence",A few times a year,18%
+of physical violence",A few times a year,18%,Promotion de la violence physique ou incitation à la violence physique,Quelques fois par année
 "Information about the news or current 
-events that you immediately suspect to be false",Never,11%
+events that you immediately suspect to be false",Never,11%,Informations sur les nouvelles ou les événements actuels que vous soupçonnez immédiatement d’être fausses,Jamais
 "Information about the news or current events 
-that you believe to be true and later find out is false",Never,15%
+that you believe to be true and later find out is false",Never,15%,Informations sur les nouvelles ou les événements actuels que vous croyez vraies et qui s’avèrent fausses par la suite,Jamais
 "Hate speech that deliberately promotes 
-hatred against an identifiable group",Never,24%
-"Synthetic media or “deep fake” images or 
+hatred against an identifiable group",Never,24%,Discours haineux qui fomente délibérément la haine contre un groupe identifiable,Jamais
+"Synthetic media or â€œdeep fakeâ€ images or 
 videos that depict people doing or 
-saying things that never actually happened",Never,17%
-Identity fraud or impersonation,Never,21%
+saying things that never actually happened",Never,17%,Médias synthétiques ou images ou vidéos « hypertruquées » qui montrent des personnes qui font ou disent des choses qui ne se sont jamais produites,Jamais
+Identity fraud or impersonation,Never,21%,Fraude d’identité ou usurpation d’identité,Jamais
 "Promotion or encouragement 
-of physical violence",Never,36%
+of physical violence",Never,36%,Promotion de la violence physique ou incitation à la violence physique,Jamais
 "Information about the news or current 
-events that you immediately suspect to be false",Unsure,14%
+events that you immediately suspect to be false",Unsure,14%,Informations sur les nouvelles ou les événements actuels que vous soupçonnez immédiatement d’être fausses,Incertaine ou incertain
 "Information about the news or current events 
-that you believe to be true and later find out is false",Unsure,17%
+that you believe to be true and later find out is false",Unsure,17%,Informations sur les nouvelles ou les événements actuels que vous croyez vraies et qui s’avèrent fausses par la suite,Incertaine ou incertain
 "Hate speech that deliberately promotes 
-hatred against an identifiable group",Unsure,13%
-"Synthetic media or “deep fake” images or 
+hatred against an identifiable group",Unsure,13%,Discours haineux qui fomente délibérément la haine contre un groupe identifiable,Incertaine ou incertain
+"Synthetic media or â€œdeep fakeâ€ images or 
 videos that depict people doing or 
-saying things that never actually happened",Unsure,23%
-Identity fraud or impersonation,Unsure,21%
+saying things that never actually happened",Unsure,23%,Médias synthétiques ou images ou vidéos « hypertruquées » qui montrent des personnes qui font ou disent des choses qui ne se sont jamais produites,Incertaine ou incertain
+Identity fraud or impersonation,Unsure,21%,Fraude d’identité ou usurpation d’identité,Incertaine ou incertain
 "Promotion or encouragement 
-of physical violence",Unsure,15%
-"Information about the news or current 
-events that you immediately suspect to be false",Total,75%
-"Information about the news or current events 
-that you believe to be true and later find out is false",Total,67%
-"Hate speech that deliberately promotes 
-hatred against an identifiable group",Total,63%
-"Synthetic media or “deep fake” images or 
-videos that depict people doing or 
-saying things that never actually happened",Total,60%
-Identity fraud or impersonation,Total,58%
-"Promotion or encouragement 
-of physical violence",Total,49%
+of physical violence",Unsure,15%,Promotion de la violence physique ou incitation à la violence physique,Incertaine ou incertain

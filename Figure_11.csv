@@ -1,45 +1,45 @@
-Platform,Year,Trust,Share
-Facebook / Meta,2024,Low (1-3),44.92365914775410000%
-Facebook / Meta,2022,Low (1-3),42.09014701894550000%
-Facebook / Meta,2021,Low (1-3),37.00000000000000000%
-Facebook / Meta,2019,Low (1-3),36.63366336633660000%
-Facebook / Meta,2024,Medium (4-6),37.64881519885030000%
-Facebook / Meta,2022,Medium (4-6),40.55421578128570000%
-Facebook / Meta,2021,Medium (4-6),39.00000000000000000%
-Facebook / Meta,2019,Medium (4-6),38.61386138613860000%
-Facebook / Meta,2024,High (7-9),12.40306000673910000%
-Facebook / Meta,2022,High (7-9),12.34505343004760000%
-Facebook / Meta,2021,High (7-9),21.00000000000000000%
-Facebook / Meta,2019,High (7-9),20.79207920792080000%
-Facebook / Meta,2024,Don't know,5.02446564665612000%
-Facebook / Meta,2022,Don't know,5.01058376972128000%
-Facebook / Meta,2021,Don't know,3.00000000000000000%
-Facebook / Meta,2019,Don't know,3.96039603960396000%
-Twitter / X,2024,Low (1-3),48.03933054136070000%
-Twitter / X,2022,Low (1-3),39.51301693463810000%
-Twitter / X,2021,Low (1-3),30.69306930693070000%
-Twitter / X,2019,Low (1-3),29.00000000000000000%
-Twitter / X,2024,Medium (4-6),30.01964091532480000%
-Twitter / X,2022,Medium (4-6),36.35388620122180000%
-Twitter / X,2021,Medium (4-6),34.65346534653470000%
-Twitter / X,2019,Medium (4-6),35.00000000000000000%
-Twitter / X,2024,High (7-9),11.02615270733130000%
-Twitter / X,2022,High (7-9),11.31663764844110000%
-Twitter / X,2021,High (7-9),21.78217821782180000%
-Twitter / X,2019,High (7-9),22.00000000000000000%
-Twitter / X,2024,Don't know,10.91487583598280000%
-Twitter / X,2022,Don't know,12.81645921569910000%
-Twitter / X,2021,Don't know,12.87128712871290000%
-Twitter / X,2019,Don't know,14.00000000000000000%
-TikTok,2024,Low (1-3),55.23226541778940000%
-TikTok,2022,Low (1-3),49.66918986779850000%
-TikTok,2021,Low (1-3),36.00000000000000000%
-TikTok,2024,Medium (4-6),26.88322374355650000%
-TikTok,2022,Medium (4-6),30.26431079562780000%
-TikTok,2021,Medium (4-6),30.00000000000000000%
-TikTok,2024,High (7-9),8.32575457574371000%
-TikTok,2022,High (7-9),7.10003202552218000%
-TikTok,2021,High (7-9),16.00000000000000000%
-TikTok,2024,Don't know,9.55875626290992000%
-TikTok,2022,Don't know,12.96646731105160000%
-TikTok,2021,Don't know,18.00000000000000000%
+﻿Platform,Year,Trust,Share,Platform_FR,Trust_FR
+Facebook / Meta,2024,Low (1-3),44.92%,Facebook / Meta,Faible (1 à 3)
+Facebook / Meta,2022,Low (1-3),42.09%,Facebook / Meta,Faible (1 à 3)
+Facebook / Meta,2021,Low (1-3),37.00%,Facebook / Meta,Faible (1 à 3)
+Facebook / Meta,2019,Low (1-3),36.63%,Facebook / Meta,Faible (1 à 3)
+Facebook / Meta,2024,Medium (4-6),37.65%,Facebook / Meta,Moyen (4 à 6)
+Facebook / Meta,2022,Medium (4-6),40.55%,Facebook / Meta,Moyen (4 à 6)
+Facebook / Meta,2021,Medium (4-6),39.00%,Facebook / Meta,Moyen (4 à 6)
+Facebook / Meta,2019,Medium (4-6),38.61%,Facebook / Meta,Moyen (4 à 6)
+Facebook / Meta,2024,High (7-9),12.40%,Facebook / Meta,Haut (7 à 9)
+Facebook / Meta,2022,High (7-9),12.35%,Facebook / Meta,Haut (7 à 9)
+Facebook / Meta,2021,High (7-9),21.00%,Facebook / Meta,Haut (7 à 9)
+Facebook / Meta,2019,High (7-9),20.79%,Facebook / Meta,Haut (7 à 9)
+Facebook / Meta,2024,Don't know,5.02%,Facebook / Meta,Je ne sais pas
+Facebook / Meta,2022,Don't know,5.01%,Facebook / Meta,Je ne sais pas
+Facebook / Meta,2021,Don't know,3.00%,Facebook / Meta,Je ne sais pas
+Facebook / Meta,2019,Don't know,3.96%,Facebook / Meta,Je ne sais pas
+Twitter / X,2024,Low (1-3),48.04%,Twitter / X,Faible (1 à 3)
+Twitter / X,2022,Low (1-3),39.51%,Twitter / X,Faible (1 à 3)
+Twitter / X,2021,Low (1-3),30.69%,Twitter / X,Faible (1 à 3)
+Twitter / X,2019,Low (1-3),29.00%,Twitter / X,Faible (1 à 3)
+Twitter / X,2024,Medium (4-6),30.02%,Twitter / X,Moyen (4 à 6)
+Twitter / X,2022,Medium (4-6),36.35%,Twitter / X,Moyen (4 à 6)
+Twitter / X,2021,Medium (4-6),34.65%,Twitter / X,Moyen (4 à 6)
+Twitter / X,2019,Medium (4-6),35.00%,Twitter / X,Moyen (4 à 6)
+Twitter / X,2024,High (7-9),11.03%,Twitter / X,Haut (7 à 9)
+Twitter / X,2022,High (7-9),11.32%,Twitter / X,Haut (7 à 9)
+Twitter / X,2021,High (7-9),21.78%,Twitter / X,Haut (7 à 9)
+Twitter / X,2019,High (7-9),22.00%,Twitter / X,Haut (7 à 9)
+Twitter / X,2024,Don't know,10.91%,Twitter / X,Je ne sais pas
+Twitter / X,2022,Don't know,12.82%,Twitter / X,Je ne sais pas
+Twitter / X,2021,Don't know,12.87%,Twitter / X,Je ne sais pas
+Twitter / X,2019,Don't know,14.00%,Twitter / X,Je ne sais pas
+TikTok,2024,Low (1-3),55.23%,TikTok,Faible (1 à 3)
+TikTok,2022,Low (1-3),49.67%,TikTok,Faible (1 à 3)
+TikTok,2021,Low (1-3),36.00%,TikTok,Faible (1 à 3)
+TikTok,2024,Medium (4-6),26.88%,TikTok,Moyen (4 à 6)
+TikTok,2022,Medium (4-6),30.26%,TikTok,Moyen (4 à 6)
+TikTok,2021,Medium (4-6),30.00%,TikTok,Moyen (4 à 6)
+TikTok,2024,High (7-9),8.33%,TikTok,Haut (7 à 9)
+TikTok,2022,High (7-9),7.10%,TikTok,Haut (7 à 9)
+TikTok,2021,High (7-9),16.00%,TikTok,Haut (7 à 9)
+TikTok,2024,Don't know,9.56%,TikTok,Je ne sais pas
+TikTok,2022,Don't know,12.97%,TikTok,Je ne sais pas
+TikTok,2021,Don't know,18.00%,TikTok,Je ne sais pas

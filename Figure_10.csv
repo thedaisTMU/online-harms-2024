@@ -1,69 +1,69 @@
-Platform,Trust,Share
-CBC / Radio-Canada,Low (1-3),15%
-Canadian Tire,Low (1-3),9%
-CTV [Outside Quebec],Low (1-3),15%
-Global News,Low (1-3),13%
-Google,Low (1-3),16%
-Wikipedia,Low (1-3),17%
-The Globe and Mail,Low (1-3),14%
-Microsoft,Low (1-3),17%
-Apple,Low (1-3),20%
-CNN,Low (1-3),21%
-Shell Canada,Low (1-3),18%
-Bell Canada,Low (1-3),24%
-Loblaws,Low (1-3),25%
-Facebook / Meta,Low (1-3),45%
-Twitter / X,Low (1-3),48%
-OpenAI,Low (1-3),33%
-TikTok,Low (1-3),55%
-CBC / Radio-Canada,Medium (4-6),32%
-Canadian Tire,Medium (4-6),40%
-CTV [Outside Quebec],Medium (4-6),38%
-Global News,Medium (4-6),36%
-Google,Medium (4-6),43%
-Wikipedia,Medium (4-6),40%
-The Globe and Mail,Medium (4-6),35%
-Microsoft,Medium (4-6),43%
-Apple,Medium (4-6),42%
-CNN,Medium (4-6),37%
-Shell Canada,Medium (4-6),43%
-Bell Canada,Medium (4-6),43%
-Loblaws,Medium (4-6),41%
-Facebook / Meta,Medium (4-6),38%
-Twitter / X,Medium (4-6),30%
-OpenAI,Medium (4-6),27%
-TikTok,Medium (4-6),27%
-CBC / Radio-Canada,High (7-9),48%
-Canadian Tire,High (7-9),46%
-CTV [Outside Quebec],High (7-9),41%
-Global News,High (7-9),41%
-Google,High (7-9),36%
-Wikipedia,High (7-9),36%
-The Globe and Mail,High (7-9),36%
-Microsoft,High (7-9),34%
-Apple,High (7-9),31%
-CNN,High (7-9),31%
-Shell Canada,High (7-9),27%
-Bell Canada,High (7-9),25%
-Loblaws,High (7-9),25%
-Facebook / Meta,High (7-9),12%
-Twitter / X,High (7-9),11%
-OpenAI,High (7-9),9%
-TikTok,High (7-9),8%
-CBC / Radio-Canada,Don't know,5%
-Canadian Tire,Don't know,6%
-CTV [Outside Quebec],Don't know,7%
-Global News,Don't know,11%
-Google,Don't know,4%
-Wikipedia,Don't know,7%
-The Globe and Mail,Don't know,16%
-Microsoft,Don't know,7%
-Apple,Don't know,7%
-CNN,Don't know,11%
-Shell Canada,Don't know,13%
-Bell Canada,Don't know,8%
-Loblaws,Don't know,9%
-Facebook / Meta,Don't know,5%
-Twitter / X,Don't know,11%
-OpenAI,Don't know,31%
-TikTok,Don't know,10%
+﻿Platform,Trust,Share,Platform_FR,Trust_FR
+CBC / Radio-Canada,Low (1-3),15%,CBC/Radio-Canada,Faible (1 à 3)
+Canadian Tire,Low (1-3),9%,Canadian Tire,Faible (1 à 3)
+CTV [Outside Quebec],Low (1-3),15%,CTV [ailleurs qu’au Québec],Faible (1 à 3)
+Global News,Low (1-3),13%,Global News,Faible (1 à 3)
+Google,Low (1-3),16%,Google,Faible (1 à 3)
+Wikipedia,Low (1-3),17%,Wikipedia,Faible (1 à 3)
+The Globe and Mail,Low (1-3),14%,The Globe and Mail,Faible (1 à 3)
+Microsoft,Low (1-3),17%,Microsoft,Faible (1 à 3)
+Apple,Low (1-3),20%,Apple,Faible (1 à 3)
+CNN,Low (1-3),21%,CNN,Faible (1 à 3)
+Shell Canada,Low (1-3),18%,Shell Canada,Faible (1 à 3)
+Bell Canada,Low (1-3),24%,Bell Canada,Faible (1 à 3)
+Loblaws,Low (1-3),25%,Loblaws,Faible (1 à 3)
+Facebook / Meta,Low (1-3),45%,Facebook/Meta,Faible (1 à 3)
+Twitter / X,Low (1-3),48%,Twitter/X,Faible (1 à 3)
+OpenAI,Low (1-3),33%,OpenAI,Faible (1 à 3)
+TikTok,Low (1-3),55%,TikTok,Faible (1 à 3)
+CBC / Radio-Canada,Medium (4-6),32%,CBC/Radio-Canada,Moyen (4 à 6)
+Canadian Tire,Medium (4-6),40%,Canadian Tire,Moyen (4 à 6)
+CTV [Outside Quebec],Medium (4-6),38%,CTV [ailleurs qu’au Québec],Moyen (4 à 6)
+Global News,Medium (4-6),36%,Global News,Moyen (4 à 6)
+Google,Medium (4-6),43%,Google,Moyen (4 à 6)
+Wikipedia,Medium (4-6),40%,Wikipedia,Moyen (4 à 6)
+The Globe and Mail,Medium (4-6),35%,The Globe and Mail,Moyen (4 à 6)
+Microsoft,Medium (4-6),43%,Microsoft,Moyen (4 à 6)
+Apple,Medium (4-6),42%,Apple,Moyen (4 à 6)
+CNN,Medium (4-6),37%,CNN,Moyen (4 à 6)
+Shell Canada,Medium (4-6),43%,Shell Canada,Moyen (4 à 6)
+Bell Canada,Medium (4-6),43%,Bell Canada,Moyen (4 à 6)
+Loblaws,Medium (4-6),41%,Loblaws,Moyen (4 à 6)
+Facebook / Meta,Medium (4-6),38%,Facebook/Meta,Moyen (4 à 6)
+Twitter / X,Medium (4-6),30%,Twitter/X,Moyen (4 à 6)
+OpenAI,Medium (4-6),27%,OpenAI,Moyen (4 à 6)
+TikTok,Medium (4-6),27%,TikTok,Moyen (4 à 6)
+CBC / Radio-Canada,High (7-9),48%,CBC/Radio-Canada,Haut (7 à 9)
+Canadian Tire,High (7-9),46%,Canadian Tire,Haut (7 à 9)
+CTV [Outside Quebec],High (7-9),41%,CTV [ailleurs qu’au Québec],Haut (7 à 9)
+Global News,High (7-9),41%,Global News,Haut (7 à 9)
+Google,High (7-9),36%,Google,Haut (7 à 9)
+Wikipedia,High (7-9),36%,Wikipedia,Haut (7 à 9)
+The Globe and Mail,High (7-9),36%,The Globe and Mail,Haut (7 à 9)
+Microsoft,High (7-9),34%,Microsoft,Haut (7 à 9)
+Apple,High (7-9),31%,Apple,Haut (7 à 9)
+CNN,High (7-9),31%,CNN,Haut (7 à 9)
+Shell Canada,High (7-9),27%,Shell Canada,Haut (7 à 9)
+Bell Canada,High (7-9),25%,Bell Canada,Haut (7 à 9)
+Loblaws,High (7-9),25%,Loblaws,Haut (7 à 9)
+Facebook / Meta,High (7-9),12%,Facebook/Meta,Haut (7 à 9)
+Twitter / X,High (7-9),11%,Twitter/X,Haut (7 à 9)
+OpenAI,High (7-9),9%,OpenAI,Haut (7 à 9)
+TikTok,High (7-9),8%,TikTok,Haut (7 à 9)
+CBC / Radio-Canada,Don't know,5%,CBC/Radio-Canada,Je ne sais pas
+Canadian Tire,Don't know,6%,Canadian Tire,Je ne sais pas
+CTV [Outside Quebec],Don't know,7%,CTV [ailleurs qu’au Québec],Je ne sais pas
+Global News,Don't know,11%,Global News,Je ne sais pas
+Google,Don't know,4%,Google,Je ne sais pas
+Wikipedia,Don't know,7%,Wikipedia,Je ne sais pas
+The Globe and Mail,Don't know,16%,The Globe and Mail,Je ne sais pas
+Microsoft,Don't know,7%,Microsoft,Je ne sais pas
+Apple,Don't know,7%,Apple,Je ne sais pas
+CNN,Don't know,11%,CNN,Je ne sais pas
+Shell Canada,Don't know,13%,Shell Canada,Je ne sais pas
+Bell Canada,Don't know,8%,Bell Canada,Je ne sais pas
+Loblaws,Don't know,9%,Loblaws,Je ne sais pas
+Facebook / Meta,Don't know,5%,Facebook/Meta,Je ne sais pas
+Twitter / X,Don't know,11%,Twitter/X,Je ne sais pas
+OpenAI,Don't know,31%,OpenAI,Je ne sais pas
+TikTok,Don't know,10%,TikTok,Je ne sais pas

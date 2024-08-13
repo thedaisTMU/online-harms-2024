@@ -1,57 +1,57 @@
-Platform,Year,Share
-News on TV,2024,56%
-News websites,2024,42%
-News on the radio,2024,41%
-Search engines,2024,37%
-Facebook,2024,27%
-"Messages from friends, family or colleagues",2024,24%
-YouTube,2024,23%
-Instagram,2024,20%
-Print newspapers,2024,17%
-Mobile news alerts,2024,17%
-Twitter / X,2024,12%
-Email newsletters,2024,10%
-TikTok,2024,10%
-Podcasts,2024,9%
-News on TV,2022,58%
-News websites,2022,44%
-News on the radio,2022,39%
-Search engines,2022,34%
-Facebook,2022,32%
-"Messages from friends, family or colleagues",2022,22%
-YouTube,2022,24%
-Instagram,2022,16%
-Print newspapers,2022,17%
-Mobile news alerts,2022,17%
-Twitter / X,2022,14%
-Email newsletters,2022,9%
-TikTok,2022,7%
-Podcasts,2022,7%
-News on TV,2021,63%
-News websites,2021,48%
-News on the radio,2021,39%
-Search engines,2021,36%
-Facebook,2021,24%
-"Messages from friends, family or colleagues",2021,21%
-YouTube,2021,24%
-Instagram,2021,12%
-Print newspapers,2021,25%
-Mobile news alerts,2021,19%
-Twitter / X,2021,12%
-Email newsletters,2021,10%
-TikTok,2021,0%
-Podcasts,2021,8%
-News on TV,2019,54%
-News websites,2019,45%
-News on the radio,2019,32%
-Search engines,2019,39%
-Facebook,2019,25%
-"Messages from friends, family or colleagues",2019,11%
-YouTube,2019,16%
-Instagram,2019,9%
-Print newspapers,2019,22%
-Mobile news alerts,2019,17%
-Twitter / X,2019,13%
-Email newsletters,2019,5%
-TikTok,2019,0%
-Podcasts,2019,5%
+﻿Platform,Year,Share,Platform_FR
+News on TV,2024,56%,Nouvelles à la télévision
+News websites,2024,42%,Sites Web de nouvelles
+News on the radio,2024,41%,Nouvelles à la radio
+Search engines,2024,37%,Moteurs de recherche
+Facebook,2024,27%,Facebook
+"Messages from friends, family or colleagues",2024,24%,"Messages d’amies ou d’amis, etc"
+YouTube,2024,23%,YouTube
+Instagram,2024,20%,Instagram
+Print newspapers,2024,17%,Journaux imprimés
+Mobile news alerts,2024,17%,Alertes d’information sur votre appareil mobile
+Twitter / X,2024,12%,Twitter/X
+Email newsletters,2024,10%,Infolettres par courriel
+TikTok,2024,10%,TikTok
+Podcasts,2024,9%,Balados
+News on TV,2022,58%,Nouvelles à la télévision
+News websites,2022,44%,Sites Web de nouvelles
+News on the radio,2022,39%,Nouvelles à la radio
+Search engines,2022,34%,Moteurs de recherche
+Facebook,2022,32%,Facebook
+"Messages from friends, family or colleagues",2022,22%,"Messages d’amies ou d’amis, etc"
+YouTube,2022,24%,YouTube
+Instagram,2022,16%,Instagram
+Print newspapers,2022,17%,Journaux imprimés
+Mobile news alerts,2022,17%,Alertes d’information sur votre appareil mobile
+Twitter / X,2022,14%,Twitter/X
+Email newsletters,2022,9%,Infolettres par courriel
+TikTok,2022,7%,TikTok
+Podcasts,2022,7%,Balados
+News on TV,2021,63%,Nouvelles à la télévision
+News websites,2021,48%,Sites Web de nouvelles
+News on the radio,2021,39%,Nouvelles à la radio
+Search engines,2021,36%,Moteurs de recherche
+Facebook,2021,24%,Facebook
+"Messages from friends, family or colleagues",2021,21%,"Messages d’amies ou d’amis, etc"
+YouTube,2021,24%,YouTube
+Instagram,2021,12%,Instagram
+Print newspapers,2021,25%,Journaux imprimés
+Mobile news alerts,2021,19%,Alertes d’information sur votre appareil mobile
+Twitter / X,2021,12%,Twitter/X
+Email newsletters,2021,10%,Infolettres par courriel
+TikTok,2021,0%,TikTok
+Podcasts,2021,8%,Balados
+News on TV,2019,54%,Nouvelles à la télévision
+News websites,2019,45%,Sites Web de nouvelles
+News on the radio,2019,32%,Nouvelles à la radio
+Search engines,2019,39%,Moteurs de recherche
+Facebook,2019,25%,Facebook
+"Messages from friends, family or colleagues",2019,11%,"Messages d’amies ou d’amis, etc"
+YouTube,2019,16%,YouTube
+Instagram,2019,9%,Instagram
+Print newspapers,2019,22%,Journaux imprimés
+Mobile news alerts,2019,17%,Alertes d’information sur votre appareil mobile
+Twitter / X,2019,13%,Twitter/X
+Email newsletters,2019,5%,Infolettres par courriel
+TikTok,2019,0%,TikTok
+Podcasts,2019,5%,Balados

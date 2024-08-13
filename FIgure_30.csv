@@ -1,5 +1,5 @@
-Statement,Share
-"Yes, clearly",9%
-"Yes, vaguely",28%
-No,57%
-Unsure,6%
+Statement,Share,Statement_FR
+"Yes, clearly",9%,"Oui, clairement"
+"Yes, vaguely",28%,"Oui, vaguement"
+No,57%,Non
+Unsure,6%,Je ne sais pas

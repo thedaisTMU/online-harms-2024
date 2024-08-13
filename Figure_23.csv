@@ -1,58 +1,58 @@
-Type,Category,Correct,Share
-Overall,Overall,0-2 right,11.18%
-Overall,Overall,3-5 right,35.16%
-Overall,Overall,6-8 right,53.65%
-Province,BC/YK,0-2 right,11.30%
-Province,BC/YK,3-5 right,32.50%
-Province,BC/YK,6-8 right,56.20%
-Province,AB/NWT,0-2 right,12.92%
-Province,AB/NWT,3-5 right,36.04%
-Province,AB/NWT,6-8 right,51.04%
-Province,MB/SK/NU,0-2 right,11.58%
-Province,MB/SK/NU,3-5 right,40.85%
-Province,MB/SK/NU,6-8 right,47.57%
-Province,ON,0-2 right,12.50%
-Province,ON,3-5 right,38.49%
-Province,ON,6-8 right,49.01%
-Province,QC,0-2 right,8.02%
-Province,QC,3-5 right,27.82%
-Province,QC,6-8 right,64.16%
-Province,Atlantic,0-2 right,10.91%
-Province,Atlantic,3-5 right,39.75%
-Province,Atlantic,6-8 right,49.33%
-Age,16-29,0-2 right,9.99%
-Age,16-29,3-5 right,45.22%
-Age,16-29,6-8 right,44.80%
-Age,30-44,0-2 right,16.56%
-Age,30-44,3-5 right,35.21%
-Age,30-44,6-8 right,48.24%
-Age,45-59,0-2 right,10.76%
-Age,45-59,3-5 right,33.44%
-Age,45-59,6-8 right,55.80%
-Age,60+,0-2 right,8.13%
-Age,60+,3-5 right,29.92%
-Age,60+,6-8 right,61.95%
-Gender,Woman,0-2 right,9.84%
-Gender,Woman,3-5 right,35.52%
-Gender,Woman,6-8 right,54.64%
-Gender,Man,0-2 right,12.42%
-Gender,Man,3-5 right,35.27%
-Gender,Man,6-8 right,52.30%
-Education,High school or less,0-2 right,12.86%
-Education,High school or less,3-5 right,41.96%
-Education,High school or less,6-8 right,45.18%
-Education,Certificate/ college,0-2 right,10.81%
-Education,Certificate/ college,3-5 right,36.57%
-Education,Certificate/ college,6-8 right,52.62%
-Education,University,0-2 right,9.69%
-Education,University,3-5 right,27.34%
-Education,University,6-8 right,62.97%
-Income,<$50K,0-2 right,14.95%
-Income,<$50K,3-5 right,37.45%
-Income,<$50K,6-8 right,47.60%
-Income,$50K-<$100K,0-2 right,10.11%
-Income,$50K-<$100K,3-5 right,37.20%
-Income,$50K-<$100K,6-8 right,52.69%
-Income,$100K+,0-2 right,8.31%
-Income,$100K+,3-5 right,29.35%
-Income,$100K+,6-8 right,62.34%
+﻿Type,Category,Correct,Share,Category_FR,Correct_FR
+Overall,Overall,0-2 right,11.18%,Dans l’ensemble,0-2 correct
+Overall,Overall,3-5 right,35.16%,Dans l’ensemble,3-5 correct
+Overall,Overall,6-8 right,53.65%,Dans l’ensemble,6-8 correct
+Province,BC/YK,0-2 right,11.30%,C.-B./Yukon,0-2 correct
+Province,BC/YK,3-5 right,32.50%,C.-B./Yukon,3-5 correct
+Province,BC/YK,6-8 right,56.20%,C.-B./Yukon,6-8 correct
+Province,AB/NWT,0-2 right,12.92%,Alberta/T. N.-O.,0-2 correct
+Province,AB/NWT,3-5 right,36.04%,Alberta/T. N.-O.,3-5 correct
+Province,AB/NWT,6-8 right,51.04%,Alberta/T. N.-O.,6-8 correct
+Province,MB/SK/NU,0-2 right,11.58%,Manitoba/Sask/Nunavut,0-2 correct
+Province,MB/SK/NU,3-5 right,40.85%,Manitoba/Sask/Nunavut,3-5 correct
+Province,MB/SK/NU,6-8 right,47.57%,Manitoba/Sask/Nunavut,6-8 correct
+Province,ON,0-2 right,12.50%,Ontario,0-2 correct
+Province,ON,3-5 right,38.49%,Ontario,3-5 correct
+Province,ON,6-8 right,49.01%,Ontario,6-8 correct
+Province,QC,0-2 right,8.02%,Québec,0-2 correct
+Province,QC,3-5 right,27.82%,Québec,3-5 correct
+Province,QC,6-8 right,64.16%,Québec,6-8 correct
+Province,Atlantic,0-2 right,10.91%,Atlantique,0-2 correct
+Province,Atlantic,3-5 right,39.75%,Atlantique,3-5 correct
+Province,Atlantic,6-8 right,49.33%,Atlantique,6-8 correct
+Age,16-29,0-2 right,9.99%,16-29,0-2 correct
+Age,16-29,3-5 right,45.22%,16-29,3-5 correct
+Age,16-29,6-8 right,44.80%,16-29,6-8 correct
+Age,30-44,0-2 right,16.56%,30-44,0-2 correct
+Age,30-44,3-5 right,35.21%,30-44,3-5 correct
+Age,30-44,6-8 right,48.24%,30-44,6-8 correct
+Age,45-59,0-2 right,10.76%,45-59,0-2 correct
+Age,45-59,3-5 right,33.44%,45-59,3-5 correct
+Age,45-59,6-8 right,55.80%,45-59,6-8 correct
+Age,60+,0-2 right,8.13%,60+,0-2 correct
+Age,60+,3-5 right,29.92%,60+,3-5 correct
+Age,60+,6-8 right,61.95%,60+,6-8 correct
+Gender,Woman,0-2 right,9.84%,Femme,0-2 correct
+Gender,Woman,3-5 right,35.52%,Femme,3-5 correct
+Gender,Woman,6-8 right,54.64%,Femme,6-8 correct
+Gender,Man,0-2 right,12.42%,Homme,0-2 correct
+Gender,Man,3-5 right,35.27%,Homme,3-5 correct
+Gender,Man,6-8 right,52.30%,Homme,6-8 correct
+Education,High school or less,0-2 right,12.86%,École secondaire ou moins,0-2 correct
+Education,High school or less,3-5 right,41.96%,École secondaire ou moins,3-5 correct
+Education,High school or less,6-8 right,45.18%,École secondaire ou moins,6-8 correct
+Education,Certificate/ college,0-2 right,10.81%,Certificat/collège,0-2 correct
+Education,Certificate/ college,3-5 right,36.57%,Certificat/collège,3-5 correct
+Education,Certificate/ college,6-8 right,52.62%,Certificat/collège,6-8 correct
+Education,University,0-2 right,9.69%,Université,0-2 correct
+Education,University,3-5 right,27.34%,Université,3-5 correct
+Education,University,6-8 right,62.97%,Université,6-8 correct
+Income,<$50K,0-2 right,14.95%,<50 000$,0-2 correct
+Income,<$50K,3-5 right,37.45%,<50 000$,3-5 correct
+Income,<$50K,6-8 right,47.60%,<50 000$,6-8 correct
+Income,$50K-<$100K,0-2 right,10.11%,50 000$ à <100 000$,0-2 correct
+Income,$50K-<$100K,3-5 right,37.20%,50 000$ à <100 000$,3-5 correct
+Income,$50K-<$100K,6-8 right,52.69%,50 000$ à <100 000$,6-8 correct
+Income,$100K+,0-2 right,8.31%,100 000$ et plus,0-2 correct
+Income,$100K+,3-5 right,29.35%,100 000$ et plus,3-5 correct
+Income,$100K+,6-8 right,62.34%,100 000$ et plus,6-8 correct
