@@ -118,13 +118,13 @@ figure.4.data[,Share:=str_remove(Share,"%")][,Share:=as.numeric(Share)]
 figure.4.data$Platform <- factor(figure.4.data$Platform, levels=(c("News on TV",
                                                                    "News websites",
                                                                    "News on the radio",
-                                                                   "Search engines, such as Google",
+                                                                   "Search engines",
                                                                    "Facebook",
                                                                    "Messages from friends, family, etc",
                                                                    "YouTube",
                                                                    "Instagram",
                                                                    "Print newspapers",
-                                                                   "News alerts on your mobile device",
+                                                                   "Mobile news alerts",
                                                                    "Twitter / X",
                                                                    "Email newsletters",
                                                                    "TikTok",
@@ -159,7 +159,8 @@ figure.5.data[,Year:=as.factor(Year)][,Year:=reorder(Year, c(rep(1,14),rep(2,14)
 figure.5.data[,Platform:=str_wrap(Platform, 30)]
 
 figure.5 <- plot.column.dais(figure.5.data,
-                             Share,Platform,group.by=Year,order.bar="descending",label.unit="%") +
+                             Share,Platform,group.by=Year,order.bar="descending",label.unit="%",
+                             colours = set.colours(4,categorical.choice = c("hot.pink","black","gold","blue"))) +
   ylab(NULL) + scale_y_continuous(expand=c(0,0),limits=c(0,75),breaks=c(0,15,30,45,60,75),labels=c("0%","15%","30%","45%","60%","75%"))+
   geom_text(aes(y=Share+3,label = paste0(round(Share, 0), "%")), size=2.3,
             position = position_dodge(width = 0.6),family="Replica-Light",angle=90,
@@ -171,13 +172,13 @@ figure.6.data[,Age:=as.factor(Age)][,Age:=reorder(Age,c(rep(1,29),rep(2,29),rep(
 figure.6.data$Platform <- factor(figure.6.data$Platform, levels=(rev(c("News on TV",
                                                                    "News websites",
                                                                    "News on the radio",
-                                                                   "Search engines, such as Google",
+                                                                   "Search engines",
                                                                    "Facebook",
                                                                    "Messages from friends, etc",
                                                                    "YouTube",
                                                                    "Instagram",
                                                                    "Print newspapers",
-                                                                   "News alerts on your mobile device",
+                                                                   "Mobile news alerts",
                                                                    "Twitter / X",
                                                                    "Email newsletters",
                                                                    "TikTok",
@@ -211,7 +212,7 @@ figure.6 <- ggplot(figure.6.data,aes(Platform,Share,colour=Age)) + dais.base.the
 figure.7.data <-fread("Figure_7.csv")
 figure.7.data[,Share:=str_remove(Share,"%")][,Share:=as.numeric(Share)]
 figure.7.data[,Platform:=as.factor(Platform)][,Platform:=reorder(Platform,c(rep(1,15),rep(2,15)))]
-figure.7.data$Answer <- factor(figure.7.data$Answer, levels=c("Trust", "Distrust"))
+figure.7.data$Answer <- factor(figure.7.data$Answer, levels=c("Most Trust", "Least Trust"))
 figure.7.data$Platform <- factor(figure.7.data$Platform, levels=c("News on TV",
                                                                    "News websites",
                                                                    "News on the radio",
@@ -222,7 +223,7 @@ figure.7.data$Platform <- factor(figure.7.data$Platform, levels=c("News on TV",
                                                                    "Twitter / X",
                                                                    "Facebook",
                                                                    "Instagram",
-                                                                   "News alerts on your phone",
+                                                                   "Mobile news alerts",
                                                                    "TikTok",
                                                                    "Other",
                                                                    "None of the above",
@@ -262,7 +263,7 @@ figure.9 <- plot.column.dais(figure.9.data,Share,Statement,order.bar = "ascendin
   ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour = Answer), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
-  scale_color_manual(values=c("Yes"="black","No"="white","Unsure"="black")) +
+  scale_color_manual(values=c("Yes"="white","No"="white","Unsure"="black")) +
   guides(fill=guide_legend(reverse=TRUE),color="none") +
   theme(axis.title.y = element_blank())
 
@@ -313,9 +314,10 @@ figure.12 <- plot.column.dais(figure.12.data,Share,Platform,group.by=Trust,stack
                               colours = c("grey",rev(set.colours(3,type="gradient")))
 ) + coord_flip()+
   ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
-  geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",
+  geom_text(aes(label = paste0(round(Share, 0), "%"),colours=Trust), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
-  guides(fill=guide_legend(reverse=TRUE)) +
+  scale_colours_manual(values=c("High (7-9)"="white","Medium (4-6)"="black","Low (1-3)"="black","Dont know"="black")) +
+  guides(fill=guide_legend(reverse=TRUE),colours="none") +
   theme(axis.title.y = element_blank())
 
 figure.13.data <-fread("Figure_13.csv")
@@ -332,7 +334,7 @@ figure.13 <- plot.column.dais(figure.13.data,Share,Source,group.by=Trust,stacked
   ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour = Trust), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
-  scale_color_manual(values=c("Strongly trust"="black","Somewhat trust"="black","Don't trust"="white","Don't know"="black")) +
+  scale_color_manual(values=c("Strongly trust"="white","Somewhat trust"="black","Don't trust"="white","Don't know"="black")) +
   guides(fill=guide_legend(reverse=TRUE),colour="none") +
   theme(axis.title.y = element_blank())
 
@@ -351,7 +353,7 @@ figure.14 <- plot.column.dais(figure.14.data,Share,Statement,group.by=Frequency,
   ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour=Frequency), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
-  scale_color_manual(values=c("A few times a day"="black","A few times a month"="black","Never"="white",
+  scale_color_manual(values=c("A few times a day"="white","A few times a month"="black","Never"="white",
                               "A few times a week"="black","A few times a year"="black","Unsure"="black")) +
   guides(fill=guide_legend(reverse=TRUE),colour="none") +
   theme(axis.title.y = element_blank())
@@ -401,7 +403,7 @@ figure.16 <- plot.column.dais(figure.16.data,Share,Statement,group.by=Answer,sta
   ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour=Answer), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
-  scale_colour_manual(values=c("Yes"="black","No"="white","Unsure"="black"))+
+  scale_colour_manual(values=c("Yes"="white","No"="white","Unsure"="black"))+
   guides(fill=guide_legend(reverse=TRUE),colour="none") +
   theme(axis.title.y = element_blank())
 
@@ -415,7 +417,8 @@ figure.18 <- plot.column.dais(figure.18.data,Share,Statement,group.by=Age,label.
   ylab(NULL) +
   geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",
             position = position_dodge(width = 0.6),
-            vjust = -0.5)
+            vjust = -0.5) +
+  scale_y_continuous(expand=c(0,0),limits=c(0,40),breaks=c(0,10,20,30,40),labels="0%","10%","20%","30%","40%")
 
 
 figure.19.data <-fread("Figure_19.csv")
@@ -427,7 +430,7 @@ figure.19 <- plot.column.dais(figure.19.data,Share,Statement,group.by=Answer,sta
   ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour=Answer), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
-  scale_colour_manual(values=c("Yes"="black","No"="white","Unsure"="black"))+
+  scale_colour_manual(values=c("Yes"="white","No"="white","Unsure"="black"))+
   guides(fill=guide_legend(reverse=TRUE),colour="none") +
   theme(axis.title.y = element_blank())
 
@@ -469,9 +472,11 @@ figure.22 <- plot.column.dais(figure.22.data,Share,Statement,group.by=Truth,stac
                               colours = set.colours(5,categorical.choice = c("grey","hot.pink","orange","light.blue","blue"))
 ) + coord_flip() +
   ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
-  geom_text(aes(label = label.b), family="Replica-Light",
+  geom_text(aes(label = label.b,colour=Truth), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
-  guides(fill=guide_legend(reverse=TRUE,title=NULL)) +
+  scale_color_manual(values=c("Definitely true"="white","Somewhat true"="black","Somewhat not true"="black",
+                              "Definitely not true"="white","Don't know"="black"))  +
+  guides(fill=guide_legend(reverse=TRUE,title=NULL,ncol=2),colour="none") +
   theme(axis.title.y = element_blank())
 
 
@@ -600,9 +605,10 @@ figure.29 <- ggplot(figure.29.data,aes(Year,Share,fill=Support)) + dais.base.the
         strip.text.y.left  = element_text(angle=0)) + coord_flip() +
   scale_fill_manual(values = rev(set.colours(2,type="gradient")))+
   ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
-  geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",
+  geom_text(aes(label = paste0(round(Share, 0), "%"),colour=Support), family="Replica-Light",size=2.7,
             position = position_stack(vjust = 0.5)) +
-  guides(fill=guide_legend(reverse=TRUE)) +
+  scale_colour_manual(values=c("Strongly support"="white","Somewhat support"="black")) +
+  guides(fill=guide_legend(reverse=TRUE),colour="none") +
   theme(axis.title.y = element_blank())
 
 

@@ -2,13 +2,13 @@ Platform,Age,Share
 News on TV,16-29,37%
 News websites,16-29,36%
 News on the radio,16-29,27%
-"Search engines, such as Google",16-29,42%
+Search engines,16-29,42%
 Facebook,16-29,26%
 "Messages from friends, etc",16-29,27%
 YouTube,16-29,35%
 Instagram,16-29,46%
 Print newspapers,16-29,6%
-News alerts on your mobile device,16-29,19%
+Mobile news alerts,16-29,19%
 Twitter / X,16-29,17%
 Email newsletters,16-29,7%
 TikTok,16-29,28%
@@ -31,13 +31,13 @@ None of the above,16-29,5%
 News on TV,30-44,39%
 News websites,30-44,40%
 News on the radio,30-44,37%
-"Search engines, such as Google",30-44,40%
+Search engines,30-44,40%
 Facebook,30-44,32%
 "Messages from friends, etc",30-44,25%
 YouTube,30-44,25%
 Instagram,30-44,25%
 Print newspapers,30-44,10%
-News alerts on your mobile device,30-44,14%
+Mobile news alerts,30-44,14%
 Twitter / X,30-44,14%
 Email newsletters,30-44,8%
 TikTok,30-44,12%
@@ -60,13 +60,13 @@ None of the above,30-44,5%
 News on TV,45-59,61%
 News websites,45-59,42%
 News on the radio,45-59,47%
-"Search engines, such as Google",45-59,35%
+Search engines,45-59,35%
 Facebook,45-59,32%
 "Messages from friends, etc",45-59,22%
 YouTube,45-59,20%
 Instagram,45-59,12%
 Print newspapers,45-59,14%
-News alerts on your mobile device,45-59,19%
+Mobile news alerts,45-59,19%
 Twitter / X,45-59,11%
 Email newsletters,45-59,7%
 TikTok,45-59,5%
@@ -86,32 +86,32 @@ Microsoft Copilot,45-59,1%
 WeChat / Weixin,45-59,0%
 Other,45-59,2%
 None of the above,45-59,2%
-News on TV,60+,78%
-News websites,60+,47%
-News on the radio,60+,50%
-"Search engines, such as Google",60+,34%
-Facebook,60+,20%
-"Messages from friends, etc",60+,24%
-YouTube,60+,16%
-Instagram,60+,5%
-Print newspapers,60+,33%
-News alerts on your mobile device,60+,17%
-Twitter / X,60+,6%
-Email newsletters,60+,17%
-TikTok,60+,2%
-Facebook Messenger,60+,10%
-Podcasts,60+,6%
-Reddit,60+,1%
-Print magazines,60+,11%
-LinkedIn,60+,3%
-WhatsApp,60+,2%
-Snapchat,60+,0%
-Pinterest,60+,1%
-Telegram,60+,1%
-ChatGPT,60+,0%
-Threads,60+,0%
-Discord,60+,0%
-Microsoft Copilot,60+,0%
-WeChat / Weixin,60+,0%
-Other,60+,2%
-None of the above,60+,1%
+News on TV,60,78%
+News websites,60,47%
+News on the radio,60,50%
+Search engines,60,34%
+Facebook,60,20%
+"Messages from friends, etc",60,24%
+YouTube,60,16%
+Instagram,60,5%
+Print newspapers,60,33%
+Mobile news alerts,60,17%
+Twitter / X,60,6%
+Email newsletters,60,17%
+TikTok,60,2%
+Facebook Messenger,60,10%
+Podcasts,60,6%
+Reddit,60,1%
+Print magazines,60,11%
+LinkedIn,60,3%
+WhatsApp,60,2%
+Snapchat,60,0%
+Pinterest,60,1%
+Telegram,60,1%
+ChatGPT,60,0%
+Threads,60,0%
+Discord,60,0%
+Microsoft Copilot,60,0%
+WeChat / Weixin,60,0%
+Other,60,2%
+None of the above,60,1%
