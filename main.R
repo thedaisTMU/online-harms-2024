@@ -4,6 +4,7 @@ library(stringr)
 library(data.table)
 library(dplyr)
 library(ggrepel)
+library(lemon)
 
 graph.spreadsheet <- fread("Graph_spreadsheet.csv")
 
@@ -353,25 +354,30 @@ figure.13 <- plot.column.dais(figure.13.data,Share,Source,group.by=Trust,stacked
   scale_y_continuous(expand=c(0,0),limits=c(0,100),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
 
+
+
 figure.14.data <-fread("Figure_14.csv")
 figure.14.data[,Share:=str_remove(Share,"%")][,Share:=as.numeric(Share)]
-figure.14.data[,Statement:=as.factor(Statement)][,Statement:=reorder(Statement,rep(seq(6,1),6))]
+figure.14.data[,Statement:=str_wrap(Statement,30)]
+figure.14.data[,Statement:=as.factor(Statement)][,Statement:=reorder(Statement,rep(seq(6,1),7))]
+figure.14.data.total <- figure.14.data[Frequency=="Total"]
+figure.14.data.total[,Frequency:=NULL]
+figure.14.data <- figure.14.data[Frequency!="Total"]
 figure.14.data[,Frequency:=as.factor(Frequency)][,Frequency:=reorder(Frequency,c(rep(6,6),rep(5,6),rep(4,6),rep(3,6),rep(2,6),rep(1,6)))]
-figure.14.data <- figure.14.data %>%
-  group_by(Statement) %>%
-  mutate(Share = Share / sum(Share) * 100) %>%
-  ungroup()
-figure.14 <- plot.column.dais(figure.14.data,Share,Statement,group.by=Frequency,stacked=TRUE,
+figure.14.data[Frequency!="Total",Share:=Share/sum(Share)*100,by=Statement]
+
+figure.14 <- plot.column.dais(figure.14.data[Frequency!="Total"],Share,Statement,group.by=Frequency,stacked=TRUE,
                               colours = c("grey","black",rev(set.colours(4,type="gradient")))
 ) + coord_flip()+
-  #ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = paste0(round(Share, 0), "%"),colour=Frequency), family="Replica-Light",
             position = position_stack(vjust = 0.5)) +
-  scale_color_manual(values=c("A few times a day"="white","A few times a month"="black","Never"="white",
+  geom_text(data=figure.14.data.total,aes(label=paste0(round(Share),"%"),x=Statement,y=110),colour="Black",family="Replica-Bold",inherit.aes=FALSE) +
+  scale_color_manual(breaks=c(1,2,3,4,5,6),values=c("A few times a day"="white","A few times a month"="black","Never"="white",
                               "A few times a week"="black","A few times a year"="black","Unsure"="black")) +
   guides(fill=guide_legend(reverse=TRUE),colour="none") +
   theme(axis.title.y = element_blank())+
-  scale_y_continuous(expand=c(0,0),limits=c(0,100),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
+  scale_y_continuous(expand=c(0,0),limits=c(0,120),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%")) +
+  coord_capped_flip(bottom='right')
 
 
 figure.15.data <-fread("Figure_15.csv")
@@ -558,11 +564,11 @@ figure.25.data[,Platform:=as.factor(Platform)][,Platform:=reorder(Platform,rep(s
 figure.25.data[,Belief:=as.factor(Belief)][,Belief:=reorder(Belief,c(rep(3,14),rep(2,14),rep(1,14)))]
 figure.25 <- plot.column.dais(figure.25.data,Share,Platform,group.by=Belief,stacked=FALSE,
                               colours = set.colours(3,categorical.choice = c("gold","black","hot.pink"))
-) + coord_flip() + 
+) + coord_flip() +
   #ylab(NULL) + scale_y_continuous(breaks = NULL, limits = c(0,100), expand=c(0,0)) +
   geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",size=2.7,
             position = position_dodge(width = 0.6),
-            hjust = -0.5) + 
+            hjust = -0.5) +
   guides(fill=guide_legend(reverse=TRUE,title=NULL,ncol=3),colour="none") +
   scale_y_continuous(expand=c(0,0),limits=c(0,80),breaks=c(0,20,40,60,80),labels=c("0%","20%","40%","60%","80%"))
 
