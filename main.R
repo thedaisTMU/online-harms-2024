@@ -493,7 +493,7 @@ figure.22 <- plot.column.dais(figure.22.data,Share,Statement,group.by=Truth,stac
             position = position_stack(vjust = 0.5)) +
   scale_color_manual(values=c("Definitely true"="white","Somewhat true"="black","Somewhat not true"="black",
                               "Definitely not true"="white","Don't know"="black"))  +
-  guides(fill=guide_legend(reverse=TRUE,title=NULL,ncol=2),colour="none") +
+  guides(fill=guide_legend(reverse=TRUE,title=NULL,ncol=3),colour="none") +
   theme(axis.title.y = element_blank())+
   scale_y_continuous(expand=c(0,0),limits=c(0,101),breaks=c(0,25,50,75,100),labels=c("0%","25%","50%","75%","100%"))
 
@@ -558,11 +558,12 @@ figure.25.data[,Platform:=as.factor(Platform)][,Platform:=reorder(Platform,rep(s
 figure.25.data[,Belief:=as.factor(Belief)][,Belief:=reorder(Belief,c(rep(3,14),rep(2,14),rep(1,14)))]
 figure.25 <- plot.column.dais(figure.25.data,Share,Platform,group.by=Belief,stacked=FALSE,
                               colours = set.colours(3,categorical.choice = c("gold","black","hot.pink"))
-) + coord_flip() + guides(fill=guide_legend(reverse=TRUE)) +
+) + coord_flip() + 
   #ylab(NULL) + scale_y_continuous(breaks = NULL, limits = c(0,100), expand=c(0,0)) +
   geom_text(aes(label = paste0(round(Share, 0), "%")), family="Replica-Light",size=2.7,
             position = position_dodge(width = 0.6),
-            hjust = -0.5)+
+            hjust = -0.5) + 
+  guides(fill=guide_legend(reverse=TRUE,title=NULL,ncol=3),colour="none") +
   scale_y_continuous(expand=c(0,0),limits=c(0,80),breaks=c(0,20,40,60,80),labels=c("0%","20%","40%","60%","80%"))
 
 figure.26.data <-fread("Figure_26.csv")
