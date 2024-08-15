@@ -44,12 +44,11 @@ figure.1 <- plot.column.dais(figure.1.data,
                              "I don’t use this"="#3b3b3b",
                              "Unsure"="grey"))+
   coord_flip() +
-  ##ylab(NULL) + scale_y_discrete(breaks = NULL, expand=c(0,0))+
   geom_text(aes(label = label.b,colour=Frequency),
             position = position_stack(vjust = 0.5),family="Replica-Light") +
-  scale_colour_manual(values=c("A few times an hour"="black",
-                             "A few times a day"="black",
-                             "A few times a week"="black",
+  scale_colour_manual(values=c("A few times an hour"="white",
+                             "A few times a day"="white",
+                             "A few times a week"="white",
                              "A few times a month"="black",
                              "A few times a year"="black",
                              "I don’t use this"="white",
