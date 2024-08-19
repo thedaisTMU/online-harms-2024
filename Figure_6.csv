@@ -1,19 +1,19 @@
 ﻿Platform,Age,Share,Platform_FR,Âge
 News on TV,16-29,37%,Nouvelles à la télévision,16-29
-News websites,16-29,36%,Sites Web de nouvelles,16-29
+News websites,16-29,36%,Sites Web d'informations,16-29
 News on the radio,16-29,27%,Nouvelles à la radio,16-29
 Search engines,16-29,42%,Moteurs de recherche,16-29
 Facebook,16-29,26%,Facebook,16-29
-"Messages from friends, etc",16-29,27%,"Messages d’amies ou d’amis, etc",16-29
+"Messages from friends, etc",16-29,27%,"Messages des amis, etc",16-29
 YouTube,16-29,35%,YouTube,16-29
 Instagram,16-29,46%,Instagram,16-29
 Print newspapers,16-29,6%,Journaux imprimés,16-29
 Mobile news alerts,16-29,19%,Alertes d’information sur votre appareil mobile,16-29
 Twitter / X,16-29,17%,Twitter/X,16-29
-Email newsletters,16-29,7%,Infolettres par courriel,16-29
+Email newsletters,16-29,7%,Infolettres électroniques par courriel,16-29
 TikTok,16-29,28%,TikTok,16-29
 Facebook Messenger,16-29,7%,Facebook Messenger,16-29
-Podcasts,16-29,9%,Balados,16-29
+Podcasts,16-29,9%,Balados (podcasts),16-29
 Reddit,16-29,12%,Reddit,16-29
 Print magazines,16-29,2%,Magazines imprimés,16-29
 LinkedIn,16-29,7%,LinkedIn,16-29
@@ -26,23 +26,23 @@ Threads,16-29,2%,Threads,16-29
 Discord,16-29,3%,Discord,16-29
 Microsoft Copilot,16-29,1%,Microsoft Copilot,16-29
 WeChat / Weixin,16-29,1%,WeChat/Weixin,16-29
-Other,16-29,1%,Autres,16-29
-None of the above,16-29,5%,Aucune de ces réponses,16-29
+Other,16-29,1%,Autre,16-29
+None of the above,16-29,5%,Aucun de ces choix,16-29
 News on TV,30-44,39%,Nouvelles à la télévision,30-44
-News websites,30-44,40%,Sites Web de nouvelles,30-44
+News websites,30-44,40%,Sites Web d'informations,30-44
 News on the radio,30-44,37%,Nouvelles à la radio,30-44
 Search engines,30-44,40%,Moteurs de recherche,30-44
 Facebook,30-44,32%,Facebook,30-44
-"Messages from friends, etc",30-44,25%,"Messages d’amies ou d’amis, etc",30-44
+"Messages from friends, etc",30-44,25%,"Messages des amis, etc",30-44
 YouTube,30-44,25%,YouTube,30-44
 Instagram,30-44,25%,Instagram,30-44
 Print newspapers,30-44,10%,Journaux imprimés,30-44
 Mobile news alerts,30-44,14%,Alertes d’information sur votre appareil mobile,30-44
 Twitter / X,30-44,14%,Twitter/X,30-44
-Email newsletters,30-44,8%,Infolettres par courriel,30-44
+Email newsletters,30-44,8%,Infolettres électroniques par courriel,30-44
 TikTok,30-44,12%,TikTok,30-44
 Facebook Messenger,30-44,9%,Facebook Messenger,30-44
-Podcasts,30-44,12%,Balados,30-44
+Podcasts,30-44,12%,Balados (podcasts),30-44
 Reddit,30-44,12%,Reddit,30-44
 Print magazines,30-44,4%,Magazines imprimés,30-44
 LinkedIn,30-44,7%,LinkedIn,30-44
@@ -55,23 +55,23 @@ Threads,30-44,2%,Threads,30-44
 Discord,30-44,2%,Discord,30-44
 Microsoft Copilot,30-44,1%,Microsoft Copilot,30-44
 WeChat / Weixin,30-44,0%,WeChat/Weixin,30-44
-Other,30-44,2%,Autres,30-44
-None of the above,30-44,5%,Aucune de ces réponses,30-44
+Other,30-44,2%,Autre,30-44
+None of the above,30-44,5%,Aucun de ces choix,30-44
 News on TV,45-59,61%,Nouvelles à la télévision,45-59
-News websites,45-59,42%,Sites Web de nouvelles,45-59
+News websites,45-59,42%,Sites Web d'informations,45-59
 News on the radio,45-59,47%,Nouvelles à la radio,45-59
 Search engines,45-59,35%,Moteurs de recherche,45-59
 Facebook,45-59,32%,Facebook,45-59
-"Messages from friends, etc",45-59,22%,"Messages d’amies ou d’amis, etc",45-59
+"Messages from friends, etc",45-59,22%,"Messages des amis, etc",45-59
 YouTube,45-59,20%,YouTube,45-59
 Instagram,45-59,12%,Instagram,45-59
 Print newspapers,45-59,14%,Journaux imprimés,45-59
 Mobile news alerts,45-59,19%,Alertes d’information sur votre appareil mobile,45-59
 Twitter / X,45-59,11%,Twitter/X,45-59
-Email newsletters,45-59,7%,Infolettres par courriel,45-59
+Email newsletters,45-59,7%,Infolettres électroniques par courriel,45-59
 TikTok,45-59,5%,TikTok,45-59
 Facebook Messenger,45-59,9%,Facebook Messenger,45-59
-Podcasts,45-59,8%,Balados,45-59
+Podcasts,45-59,8%,Balados (podcasts),45-59
 Reddit,45-59,3%,Reddit,45-59
 Print magazines,45-59,5%,Magazines imprimés,45-59
 LinkedIn,45-59,7%,LinkedIn,45-59
@@ -84,34 +84,34 @@ Threads,45-59,1%,Threads,45-59
 Discord,45-59,0%,Discord,45-59
 Microsoft Copilot,45-59,1%,Microsoft Copilot,45-59
 WeChat / Weixin,45-59,0%,WeChat/Weixin,45-59
-Other,45-59,2%,Autres,45-59
-None of the above,45-59,2%,Aucune de ces réponses,45-59
-News on TV,60,78%,Nouvelles à la télévision,60
-News websites,60,47%,Sites Web de nouvelles,60
-News on the radio,60,50%,Nouvelles à la radio,60
-Search engines,60,34%,Moteurs de recherche,60
-Facebook,60,20%,Facebook,60
-"Messages from friends, etc",60,24%,"Messages d’amies ou d’amis, etc",60
-YouTube,60,16%,YouTube,60
-Instagram,60,5%,Instagram,60
-Print newspapers,60,33%,Journaux imprimés,60
-Mobile news alerts,60,17%,Alertes d’information sur votre appareil mobile,60
-Twitter / X,60,6%,Twitter/X,60
-Email newsletters,60,17%,Infolettres par courriel,60
-TikTok,60,2%,TikTok,60
-Facebook Messenger,60,10%,Facebook Messenger,60
-Podcasts,60,6%,Balados,60
-Reddit,60,1%,Reddit,60
-Print magazines,60,11%,Magazines imprimés,60
-LinkedIn,60,3%,LinkedIn,60
-WhatsApp,60,2%,WhatsApp,60
-Snapchat,60,0%,Snapchat,60
-Pinterest,60,1%,Pinterest,60
-Telegram,60,1%,Telegram,60
-ChatGPT,60,0%,ChatGPT,60
-Threads,60,0%,Threads,60
-Discord,60,0%,Discord,60
-Microsoft Copilot,60,0%,Microsoft Copilot,60
-WeChat / Weixin,60,0%,WeChat/Weixin,60
-Other,60,2%,Autres,60
-None of the above,60,1%,Aucune de ces réponses,60
+Other,45-59,2%,Autre,45-59
+None of the above,45-59,2%,Aucun de ces choix,45-59
+News on TV,60+,78%,Nouvelles à la télévision,60+
+News websites,60+,47%,Sites Web d'informations,60+
+News on the radio,60+,50%,Nouvelles à la radio,60+
+Search engines,60+,34%,Moteurs de recherche,60+
+Facebook,60+,20%,Facebook,60+
+"Messages from friends, etc",60+,24%,"Messages des amis, etc",60+
+YouTube,60+,16%,YouTube,60+
+Instagram,60+,5%,Instagram,60+
+Print newspapers,60+,33%,Journaux imprimés,60+
+Mobile news alerts,60+,17%,Alertes d’information sur votre appareil mobile,60+
+Twitter / X,60+,6%,Twitter/X,60+
+Email newsletters,60+,17%,Infolettres électroniques par courriel,60+
+TikTok,60+,2%,TikTok,60+
+Facebook Messenger,60+,10%,Facebook Messenger,60+
+Podcasts,60+,6%,Balados (podcasts),60+
+Reddit,60+,1%,Reddit,60+
+Print magazines,60+,11%,Magazines imprimés,60+
+LinkedIn,60+,3%,LinkedIn,60+
+WhatsApp,60+,2%,WhatsApp,60+
+Snapchat,60+,0%,Snapchat,60+
+Pinterest,60+,1%,Pinterest,60+
+Telegram,60+,1%,Telegram,60+
+ChatGPT,60+,0%,ChatGPT,60+
+Threads,60+,0%,Threads,60+
+Discord,60+,0%,Discord,60+
+Microsoft Copilot,60+,0%,Microsoft Copilot,60+
+WeChat / Weixin,60+,0%,WeChat/Weixin,60+
+Other,60+,2%,Autre,60+
+None of the above,60+,1%,Aucun de ces choix,60+
